@@ -1,0 +1,55 @@
+/*****************************************
+
+fonts
+
+*****************************************/
+
+/*****************************************
+
+colors
+
+*****************************************/
+
+
+
+/*****************************************
+
+defaults
+
+*****************************************/
+
+h1, h2, h3, h4, h5, p, span, a, li {
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+div:active {
+  outline: none !important;
+}
+
+a:active {
+  outline: none !important;
+}
+
+body {
+  width: 100%;
+  margin-bottom: -51px !important;
+}
+
+section {
+  outline: 0 !important;
+}
+
+.innerWrap {
+  max-width: 1040px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 50px;
+
+  @media screen and (max-width: 550px) {
+    padding: 0 30px;
+  }
+}
