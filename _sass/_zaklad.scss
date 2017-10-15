@@ -4,13 +4,49 @@ fonts
 
 *****************************************/
 
+@mixin font-face($jmeno, $soubor) {
+  @font-face {
+      font-family: $jmeno; /* deklarace fontu */
+      src: url("../fonts/#{$soubor}"); /* propojení na umístění souboru */
+  }
+}
+
+@include font-face("AveBlack", "Avenir-Black.ttf");
+@include font-face("AveBlackOblique", "Avenir-BlackOblique.ttf");
+@include font-face("AveBook", "Avenir-Book.ttf");
+@include font-face("AveBookOblique", "Avenir-BookOblique.ttf");
+@include font-face("AveHeavy", "Avenir-Heavy.ttf");
+@include font-face("AveHeavyOblique", "Avenir-HeavyOblique.ttf");
+@include font-face("AveLight", "Avenir-Light.ttf");
+@include font-face("AveLightOblique", "Avenir-LightOblique.ttf");
+@include font-face("AveMedium", "Avenir-Medium.ttf");
+@include font-face("AveMediumOblique", "Avenir-MediumOblique.ttf");
+@include font-face("AveOblique", "Avenir-Oblique.ttf");
+@include font-face("AveRoman", "Avenir-Roman.ttf");
+
+@include font-face("CirBlack", "CircularStd-Black.otf");
+@include font-face("CirBold", "CircularStd-Bold.otf");
+@include font-face("CirBlackItalic", "CircularStd-BlackItalic.otf");
+@include font-face("CirBook", "CircularStd-Book.otf");
+@include font-face("CirBookItalic", "CircularStd-BookItalic.otf");
+@include font-face("CirMedium", "CircularStd-Medium.otf");
+@include font-face("CirMediumItalic", "CircularStd-MediumItalic.otf");
+
+@include font-face("MaaBlack", "Maax_black.otf");
+@include font-face("MaaBoldItalic", "Maax_boldItalic.otf");
+@include font-face("MaaBold", "Maax_bold.otf");
+@include font-face("MaaItalic", "Maax_italic.otf");
+@include font-face("MaaMediumItalic", "Maax_mediumItalic.otf");
+@include font-face("MaaMedium", "Maax_medium.otf");
+@include font-face("Maa", "Maax.otf");
+
+@include font-face("Mon", "Monaco.ttf");
+
 /*****************************************
 
 colors
 
 *****************************************/
-
-
 
 /*****************************************
 
@@ -19,11 +55,9 @@ defaults
 *****************************************/
 
 h1, h2, h3, h4, h5, p, span, a, li {
-  font-family: 'Roboto Mono', monospace;
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
+  font-weight: normal !important;
+  font-family: book;
+  font-family: AveRoman;
 }
 
 div:active {
