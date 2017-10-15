@@ -48,6 +48,8 @@ colors
 
 *****************************************/
 
+$orange: #FFBA48;
+
 /*****************************************
 
 defaults
@@ -56,7 +58,6 @@ defaults
 
 h1, h2, h3, h4, h5, p, span, a, li {
   font-weight: normal !important;
-  font-family: book;
   font-family: AveRoman;
 }
 
@@ -70,20 +71,21 @@ a:active {
 
 body {
   width: 100%;
-  margin-bottom: -51px !important;
 }
 
 section {
   outline: 0 !important;
 }
 
-.innerWrap {
-  max-width: 1040px;
-  display: block;
-  margin: 0 auto;
-  padding: 0 50px;
-
-  @media screen and (max-width: 550px) {
-    padding: 0 30px;
-  }
+.button {
+  color: #fff;
+  background: #2F2F2F;
+  text-transform: uppercase;
+  font-family: MaaBlack;
+  font-size: 9.4px;
+  padding: 16px 25px;
+  text-decoration: none;
+  padding-bottom: 14.5px;
+  text-align: center;
+  margin: 0;
 }

@@ -1,0 +1,41 @@
+.jumbotron {
+  .jumbotronPart1 {
+    position: relative;
+    padding-top: 130px;
+    width: 100%;
+    height: 204px;
+    margin-bottom: 180px;
+
+    h1 {
+      text-align: right;
+      font-family: AveBook;
+      font-size: 75px;
+      color: #4A4A4A;
+      display: inline-block;
+      position: absolute;
+      right: calc(50% + 50px);
+      margin: 0;
+
+      span {
+        color: $orange;
+        font-family: AveHeavyOblique;
+      }
+    }
+
+    div {
+      position: absolute;
+      left: calc(50% + 50px);
+      margin-top: calc(35px - 10px);
+
+      p {
+        font-size: 16px;
+        color: #4A4A4A;
+        line-height: 24px;
+        text-align: left;
+        max-width: 410px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+}
