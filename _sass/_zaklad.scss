@@ -89,3 +89,81 @@ section {
   text-align: center;
   margin: 0;
 }
+
+.simekostav {
+  background: url("../img/bydleniMukarov.jpg");
+}
+
+.lanistae {
+  background: url("../img/lanistae.jpg");
+}
+
+.beunique {
+  background: url("../img/beunique.jpg");
+}
+
+.jezdeckaStaj {
+  background: url("../img/jezdeckastaj.jpg");
+}
+
+.projectWindow {
+  width: 480px;
+  height: 320px;
+  position: relative;
+  color: #fff;
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+
+  .description {
+    h3 {
+      position: absolute;
+      bottom: 80px;
+      left: 30px;
+      font-family: MaaBlack;
+      font-size: 9px;
+      text-transform: uppercase;
+      margin: 0;
+      z-index: 1;
+      text-align: left;
+    }
+
+    h4 {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      font-family: AveMedium;
+      font-size: 15px;
+      max-width: 330px;
+      margin: 0;
+      z-index: 1;
+      text-align: left;
+    }
+  }
+
+  .layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-image: -webkit-linear-gradient(top right, transparent, rgba(0, 0, 0, 1));
+    background-image: -o-linear-gradient(top right, transparent, rgba(0, 0, 0, 1));
+    background-image: linear-gradient(to bottom left, transparent, rgba(0, 0, 0, 1));
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+  }
+
+  &:hover {
+    background-size: 130%;
+
+    .layer {
+      opacity: 0.9;
+    }
+  }
+}

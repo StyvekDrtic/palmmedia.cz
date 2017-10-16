@@ -7,6 +7,7 @@
     margin-bottom: 180px;
 
     h1 {
+      opacity: 0;
       text-align: right;
       font-family: AveBook;
       font-size: 75px;
@@ -23,6 +24,7 @@
     }
 
     div {
+      opacity: 0;
       position: absolute;
       left: calc(50% + 50px);
       margin-top: calc(35px - 10px);
@@ -38,4 +40,48 @@
     }
   }
 
+}
+
+.jumbotronPart2 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+  .slider {
+    overflow-x: scroll;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0;
+
+    ul {
+      padding: 0;
+      width: 2134px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+
+      li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        text-align: center;
+
+        &:first-child {
+          margin-left: 40px;
+        }
+
+        &:last-child {
+          margin-right: 40px;
+        }
+      }
+    }
+  }
+
+  p {
+    font-family: AveBookOblique;
+    font-size: 17px;
+    color: #AFAFAF;
+    margin: 0;
+    margin-top: 15px;
+    text-align: center;
+  }
 }

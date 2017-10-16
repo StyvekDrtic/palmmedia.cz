@@ -33,3 +33,36 @@ $('a[href*="#"]')
     }
   }
 });
+
+
+$(document).ready(function() {
+  setTimeout(
+    function() {
+      $("header .palm").addClass("animated tada");
+
+      setTimeout(
+        function() {
+          $(".jumbotronPart1 h1").addClass("animated fadeInUp");
+          $(".jumbotronPart1 div").addClass("animated fadeIn");
+
+          setTimeout(
+            function() {
+              $(".slider").addClass("animated fadeInUp");
+
+              setTimeout(
+                function() {
+                  $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
+                  $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
+                }, 1500);
+            }, 300);
+
+
+        }, 500);
+    }, 500);
+
+
+
+  /*
+
+  */
+})
