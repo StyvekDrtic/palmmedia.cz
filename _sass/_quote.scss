@@ -29,15 +29,15 @@
   }
 
   .quoteInner {
-    width: calc(100% - 40px);
+    width: calc(100% - 80px);
     max-width: 685px;
     margin: 0 auto;
-    height: 120px;
-    padding-top: calc((330px - 120px)/2);
+    height: 115px;
+    padding-top: calc((330px - 115px)/2);
 
     p {
       font-family: AveRoman;
-      font-size: 18px;
+      font-size: 17px;
       color: #D4D4D4;
       line-height: 28px;
       display: inline-block;
@@ -51,7 +51,7 @@
       display: inline-block;
       text-align: right;
       padding-right: 15px;
-      margin-top: 29px;
+      margin-top: 28px;
 
       .name {
         font-family: MaaBlack;

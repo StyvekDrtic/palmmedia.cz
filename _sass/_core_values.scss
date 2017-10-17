@@ -1,6 +1,6 @@
 .coreValues {
   max-width: 900px;
-  width: calc(100% - 40px);
+  width: calc(100% - 80px);
   margin: 0 auto;
   margin-bottom: 140px;
 
@@ -14,16 +14,17 @@
 
   p {
     font-family: AveRoman;
-    font-size: 16px;
+    font-size: 15px;
     color: #4A4A4A;
     line-height: 25px;
-    width: 400px;
+    width: calc(50% - 50px);
     margin-bottom: 0;
   }
 
   .line {
     height: 1px;
-    width: 500px;
+    max-width: 500px;
+    width: calc(100% - 100px);
     margin: 0 auto;
     background: #E5E5E5;
   }

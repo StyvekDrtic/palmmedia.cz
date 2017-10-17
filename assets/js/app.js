@@ -34,6 +34,7 @@ $('a[href*="#"]')
   }
 });
 
+new WOW().init();
 
 $(document).ready(function() {
   setTimeout(
@@ -55,14 +56,6 @@ $(document).ready(function() {
                   $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
                 }, 1500);
             }, 300);
-
-
         }, 500);
     }, 500);
-
-
-
-  /*
-
-  */
-})
+});
