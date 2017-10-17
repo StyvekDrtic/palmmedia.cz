@@ -1,0 +1,74 @@
+.quote {
+  background-image: radial-gradient(50% 120%, #333333 2%, #252525 100%);
+  width: 100%;
+  height: 330px;
+  position: relative;
+
+  .ornament1 {
+    background: url("../img/ornament_1.png");
+    width: 267px;
+    height: 280px;
+    background-size: contain;
+    background-position: bottom right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+  }
+
+  .ornament2 {
+    background: url("../img/ornament_2.png");
+    width: 262px;
+    height: 270px;
+    background-size: contain;
+    background-position: top left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+  }
+
+  .quoteInner {
+    width: calc(100% - 40px);
+    max-width: 685px;
+    margin: 0 auto;
+    height: 120px;
+    padding-top: calc((330px - 120px)/2);
+
+    p {
+      font-family: AveRoman;
+      font-size: 18px;
+      color: #D4D4D4;
+      line-height: 28px;
+      display: inline-block;
+      width: calc(100% - 125px - 60px);
+      float: right;
+    }
+
+    .signature {
+      height: 60px;
+      border-right: 1px solid #4E4E4E;
+      display: inline-block;
+      text-align: right;
+      padding-right: 15px;
+      margin-top: 29px;
+
+      .name {
+        font-family: MaaBlack;
+        font-size: 14px;
+        color: #D4D4D4;
+        letter-spacing: 1.58px;
+        display: block;
+        margin-bottom: 7px;
+        margin-top: 13px;
+      }
+
+      .founder {
+        font-family: MaaItalic;
+        font-size: 13px;
+        color: #D4D4D4;
+        display: block;
+      }
+    }
+  }
+}

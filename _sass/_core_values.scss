@@ -1,0 +1,75 @@
+.coreValues {
+  max-width: 900px;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  margin-bottom: 140px;
+
+  h2 {
+    font-family: Mon;
+    font-size: 31px;
+    color: #4A4A4A;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-family: AveRoman;
+    font-size: 16px;
+    color: #4A4A4A;
+    line-height: 25px;
+    width: 400px;
+    margin-bottom: 0;
+  }
+
+  .line {
+    height: 1px;
+    width: 500px;
+    margin: 0 auto;
+    background: #E5E5E5;
+  }
+
+  img {
+    max-width: 48px;
+  }
+
+  .leftValue {
+    position: relative;
+
+    .heading {
+      position: absolute;
+      top: 0;
+      right: calc(50% + 50px);
+      text-align: right;
+    }
+
+    p {
+      margin-left: calc(50% + 50px);
+      text-align: left;
+    }
+
+    &:first-child {
+      margin-bottom: 80px;
+    }
+
+    &:last-child {
+      margin-top: 80px;
+    }
+  }
+
+  .rightValue {
+    position: relative;
+    margin: 80px auto;
+
+    .heading {
+      position: absolute;
+      top: 0;
+      left: calc(50% + 50px);
+      text-align: left;
+    }
+
+    p {
+      margin-left: 0;
+      text-align: right;
+    }
+  }
+}
