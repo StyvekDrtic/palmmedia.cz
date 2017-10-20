@@ -66,13 +66,13 @@
 
 .sideHustle {
   margin-top: 120px;
-  background: red;
 
   .socialLogo {
     img {
       display: inline-block;
       vertical-align: middle;
       margin-right: 16px;
+      margin-bottom: 35px;
     }
 
     span {
@@ -81,10 +81,15 @@
       font-family: MaaMedium;
       font-size: 20px;
       color: #575757;
+      margin-bottom: 35px;
     }
   }
 
   .vimeo {
+    width: calc(100% - 80px);
+    max-width: 1020px;
+    margin: 0 auto;
+
     .socialLogo {
       img {
         height: 20px;
@@ -114,38 +119,76 @@
 
     .videosMobile {
       display: none;
+
+      div {
+
+      }
     }
 
-    .videoss {
+    .videos {
       padding: 0;
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
 
-      .vimeoVideo {
-        width: 310px;
-        height: 200px;
-        margin-right: 45px;
-        position: relative;
+      li {
+        list-style: none;
         display: inline-block;
 
-        .description {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          background: rgba(0, 0, 0, 0.5);
-          color: #fff;
+        .vimeoVideo {
 
-          span {
-            font-family: MaaBlack;
-            font-size: 9px;
-          }
 
-          h4 {
-            font-family: AveMedium;
-            font-size: 15px;
+
+
+        /*pridat animaci*/
+
+
+
+
+
+
+          webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+          -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+          box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+          width: 310px;
+          height: 200px;
+          position: relative;
+          text-align: left;
+
+          .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            width: 310px;
+            padding-top: 10px;
+
+            span {
+              font-family: MaaBlack;
+              font-size: 9px;
+              margin-left: 25px;
+              margin-bottom: 5px;
+            }
+
+            h4 {
+              font-family: AveMedium;
+              font-size: 15px;
+              margin-left: 25px;
+              margin-top: 0;
+              margin-bottom: 15px;
+            }
           }
         }
 
         &:last-child {
-          margin-right: 0;
+          position: absolute;
+          right: 0;
+        }
+
+        &:first-child {
+          position: absolute;
+          left: 0;
         }
       }
     }
