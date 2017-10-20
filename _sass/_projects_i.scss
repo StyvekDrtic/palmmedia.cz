@@ -1,0 +1,177 @@
+.heading {
+  position: relative;
+  margin-bottom: 60px;
+
+  h1 {
+    font-family: AveBook;
+    font-size: 36px;
+    color: #4A4A4A;
+    text-align: right;
+    position: absolute;
+    right: calc(50% + 30px);
+    top: 0;
+    display: inline-block;
+    margin: 0;
+    line-height: 50px;
+
+    span {
+      font-family: AveHeavyOblique;
+      color: #FFBA48;
+    }
+  }
+
+  p {
+    font-family: AveBookOblique;
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-left: calc(50% + 30px);
+    text-align: left;
+    width: calc(50% - 30px);
+    display: inline-block;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+}
+
+.completedProjects {
+  margin-top: 130px;
+
+  ul {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      margin: 0;
+
+      &:nth-child(1) {
+        margin-bottom: 60px;
+      }
+
+      &:nth-child(2) {
+        margin-left: 60px;
+        margin-bottom: 60px;
+      }
+
+      &:nth-child(4) {
+        margin-left: 60px;
+      }
+    }
+  }
+}
+
+.sideHustle {
+  margin-top: 120px;
+  background: red;
+
+  .socialLogo {
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 16px;
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: MaaMedium;
+      font-size: 20px;
+      color: #575757;
+    }
+  }
+
+  .vimeo {
+    .socialLogo {
+      img {
+        height: 20px;
+      }
+    }
+
+    .romania {
+      background: url("../img/content/romania.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .zauchensee {
+      background: url("../img/content/zauchensee.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .justAnotherDay {
+      background: url("../img/content/justAnotherDay.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .videosMobile {
+      display: none;
+    }
+
+    .videoss {
+      padding: 0;
+
+      .vimeoVideo {
+        width: 310px;
+        height: 200px;
+        margin-right: 45px;
+        position: relative;
+        display: inline-block;
+
+        .description {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.5);
+          color: #fff;
+
+          span {
+            font-family: MaaBlack;
+            font-size: 9px;
+          }
+
+          h4 {
+            font-family: AveMedium;
+            font-size: 15px;
+          }
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .instagram {
+    .socialLogo {
+      img {
+        height: 30px;
+      }
+    }
+  }
+
+  .github {
+    .socialLogo {
+      img {
+        height: 30px;
+      }
+    }
+  }
+
+  .medium {
+    .socialLogo {
+      img {
+        height: 30px;
+      }
+    }
+  }
+}

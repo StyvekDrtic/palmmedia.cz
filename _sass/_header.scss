@@ -45,6 +45,10 @@ header {
         font-size: 15px;
         color: #575757;
         text-decoration: none;
+
+        &:hover {
+          text-decoration: line-through;
+        }
       }
     }
   }
