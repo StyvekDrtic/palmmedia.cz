@@ -37,12 +37,16 @@ $('a[href*="#"]')
 new WOW().init();
 
 $(document).ready(function() {
+
   setTimeout(
     function() {
       $("header .palm").addClass("animated tada");
 
       setTimeout(
         function() {
+          $(".completedProjects .heading h1").addClass("animated fadeInUp");
+          $(".completedProjects .heading p").addClass("animated fadeIn");
+
           $(".jumbotronPart1 h1").addClass("animated fadeInUp");
           $(".jumbotronPart1 div").addClass("animated fadeIn");
 
@@ -50,11 +54,28 @@ $(document).ready(function() {
             function() {
               $(".slider").addClass("animated fadeInUp");
 
+              $(".completedProjects .simekostav").addClass("animated fadeInUp");
+
               setTimeout(
                 function() {
-                  $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
-                  $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
-                }, 1500);
+                  $(".completedProjects .lanistae").addClass("animated fadeInUp");
+
+                  setTimeout(
+                    function() {
+                      $(".completedProjects .beunique").addClass("animated fadeInUp");
+
+                      setTimeout(
+                        function() {
+                          $(".completedProjects .jezdeckaStaj").addClass("animated fadeInUp");
+
+                          setTimeout(
+                            function() {
+                              $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
+                              $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
+                            }, 1200);
+                        }, 150);
+                    }, 150);
+                }, 150);
             }, 300);
         }, 500);
     }, 500);

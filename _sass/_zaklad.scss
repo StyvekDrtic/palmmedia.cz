@@ -58,6 +58,7 @@ defaults
 
 h1, h2, h3, h4, h5, p, span, a, li {
   font-weight: normal !important;
+  -webkit-font-smoothing: antialiased !important;
   font-family: AveRoman;
 }
 
@@ -141,7 +142,7 @@ section {
       position: absolute;
       bottom: 30px;
       left: 30px;
-      font-family: AveMedium;
+      font-family: AveMedium !important;
       font-size: 15px;
       max-width: 330px;
       margin: 0;
