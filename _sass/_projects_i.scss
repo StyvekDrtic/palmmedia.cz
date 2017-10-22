@@ -130,23 +130,13 @@
       position: relative;
       text-align: center;
       margin: 0 auto;
+      margin-bottom: 50px;
 
       li {
         list-style: none;
         display: inline-block;
 
         .vimeoVideo {
-
-
-
-
-        /*pridat animaci*/
-
-
-
-
-
-
           webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
           -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
           box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
@@ -154,17 +144,20 @@
           height: 200px;
           position: relative;
           text-align: left;
+          background-size: 110%;
+          transition: background-size 0.5s ease;
 
           .description {
+            z-index: 1;
             position: absolute;
             bottom: 0;
             left: 0;
-            background: rgba(0, 0, 0, 0.5);
             color: #fff;
             width: 310px;
             padding-top: 10px;
 
             span {
+              z-index: 1;
               font-family: MaaBlack;
               font-size: 9px;
               margin-left: 25px;
@@ -172,11 +165,60 @@
             }
 
             h4 {
+              z-index: 1;
               font-family: AveMedium;
               font-size: 15px;
               margin-left: 25px;
               margin-top: 0;
               margin-bottom: 15px;
+            }
+          }
+
+          .layer {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            background-image: -o-linear-gradient(top right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+            background-image: -o-linear-gradient(top right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+            background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+            opacity: 0.5;
+            transition: opacity 0.5s ease;
+          }
+
+          i {
+            position: absolute;
+            text-align: center;
+            width: 300px;
+            left: 0;
+            top: 0;
+            font-size: 40px;
+            line-height: 200px;
+            color: white;
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+
+          &:hover {
+            background-size: 130%;
+
+            .layer {
+              opacity: 1;
+            }
+
+            i {
+              opacity: 0.9;
+
+              &:hover {
+                opacity: 1;
+              }
             }
           }
         }
@@ -195,25 +237,145 @@
   }
 
   .instagram {
+    width: calc(100% - 80px);
+    max-width: 1020px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    .picturesMobile {
+      display: none;
+    }
+
+    .pictures {
+      padding: 0;
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
+
+      .photo1 {
+        background: url("../img/content/instagram/ig_1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .photo2 {
+        background: url("../img/content/instagram/ig_2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .photo3 {
+        background: url("../img/content/instagram/ig_3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .photo4 {
+        background: url("../img/content/instagram/ig_4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .photo5 {
+        background: url("../img/content/instagram/ig_5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .photo6 {
+        background: url("../img/content/instagram/ig_6.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      li {
+        list-style: none;
+        display: inline-block;
+        margin-bottom: 40px;
+
+        a {
+          div {
+            width: 310px;
+            height: 380px;
+            webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+            -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+            box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+          }
+        }
+
+        &:nth-child(2) {
+          margin: 40px 40px;
+          margin-top: 0;
+        }
+
+        &:nth-child(5) {
+          margin: 40px 40px;
+          margin-top: 0;
+        }
+      }
+    }
+
+    .button {
+      margin: 0 auto;
+      width: 49px;
+      display: block;
+    }
+
     .socialLogo {
+    text-align: left;
       img {
         height: 30px;
       }
     }
   }
 
-  .github {
-    .socialLogo {
-      img {
-        height: 30px;
+  .others {
+    width: calc(100% - 80px);
+    max-width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    height: 100px;
+
+    .github {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      .socialLogo {
+        span {
+          margin-bottom: 40px;
+        }
+
+        img {
+          height: 30px;
+          margin-bottom: 40px;
+        }
       }
     }
-  }
 
-  .medium {
-    .socialLogo {
-      img {
-        height: 30px;
+    .medium {
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: right;
+
+      .socialLogo {
+        span {
+          margin-bottom: 40px;
+        }
+
+        img {
+          height: 30px;
+          margin-left: 16px;
+          margin-right: 0;
+          margin-bottom: 40px;
+        }
       }
     }
   }
