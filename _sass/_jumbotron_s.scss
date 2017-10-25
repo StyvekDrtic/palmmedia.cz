@@ -1,0 +1,92 @@
+.jumbotronS {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  height: 530px;
+  width: 100%;
+  background: #333333; /* Old Browsers */
+  background: -webkit-radial-gradient(top,#333333,#252525); /*Safari 5.1-6*/
+  background: -o-radial-gradient(top,#333333,#252525); /*Opera 11.1-12*/
+  background: -moz-radial-gradient(top,#333333,#252525); /*Fx 3.6-15*/
+  background: radial-gradient(to bottom, #333333, #252525); /*Standard*/
+
+  .ornament1 {
+    background: url("../img/ornamenty_s/ornament_1.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 331px;
+    height: 358px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  .ornament2 {
+    background: url("../img/ornamenty_s/ornament_2.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 366px;
+    height: 463px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  .ornament3 {
+    background: url("../img/ornamenty_s/ornament_3.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 355px;
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  .jumbotronSInner {
+    position: relative;
+    padding-top: 210px;
+    width: calc(100%);
+    height: 110px;
+    margin-bottom: 180px;
+
+    h1 {
+      font-family: AveBook;
+      font-size: 33px;
+      color: #FFFFFF;
+      line-height: 55px;
+      display: inline-block;
+      position: absolute;
+      right: calc(50% + 50px);
+      margin: 0;
+      text-align: right;
+
+      span {
+        font-family: AveHeavyOblique;
+        font-size: 44px;
+        color: #FFBA48;
+      }
+    }
+
+    p {
+      font-family: AveRoman;
+      font-size: 16px;
+      color: #FFFFFF;
+      line-height: 24px;
+      position: absolute;
+      left: calc(50% + 50px);
+      max-width: 420px;
+      margin: 0;
+      margin-top: 20px;
+    }
+  }
+}
