@@ -1,3 +1,10 @@
+
+
+
+// SMOOTH SCROLLING
+
+
+
 $('a[href*="#"]')
 // Remove links that don't actually link to anything
 .not('[href="#"]')
@@ -34,7 +41,36 @@ $('a[href*="#"]')
   }
 });
 
+
+
+// WOW init
+
+
+
 new WOW().init();
+
+
+
+// MENU
+
+
+
+$(".whatWeDo").click(function() {
+  $(".regMenu").css("opacity", "0");
+  $(".submenu").css("z-index", "6");
+  $(".submenu").css("opacity", "1");
+});
+
+$(".closeButton").click(function() {
+  $(".regMenu").css("opacity", "1");
+  $(".submenu").css("z-index", "4");
+  $(".submenu").css("opacity", "0");
+});
+
+
+// LOADING
+
+
 
 $(document).ready(function() {
 

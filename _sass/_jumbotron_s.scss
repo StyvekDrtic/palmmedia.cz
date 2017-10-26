@@ -90,3 +90,88 @@
     }
   }
 }
+
+.photoVideo {
+  background: url("../img/jumbotron_pozadi_photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .ornament1 {
+    display: none;
+  }
+
+  .ornament2 {
+    display: none;
+  }
+
+  .ornament3 {
+    display: none;
+  }
+}
+
+.outerHeaderPhoto {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.websiteDevelopment {
+  background: #FFCB74; /* Old Browsers */
+  background: -webkit-radial-gradient(top,#FFCB74,#FFC563); /*Safari 5.1-6*/
+  background: -o-radial-gradient(top,#FFCB74,#FFC563); /*Opera 11.1-12*/
+  background: -moz-radial-gradient(top,#FFCB74,#FFC563); /*Fx 3.6-15*/
+  background: radial-gradient(to bottom, #FFCB74, #FFC563); /*Standard*/
+
+  .ornament1 {
+    background: url("../img/ornamenty_s_y/ornament_1.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 331px;
+    height: 358px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1;
+  }
+
+  .ornament2 {
+    background: url("../img/ornamenty_s_y/ornament_2.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 366px;
+    height: 463px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 1;
+  }
+
+  .ornament3 {
+    background: url("../img/ornamenty_s_y/ornament_3.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 355px;
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    z-index: 0;
+    opacity: 1;
+  }
+
+  h1 {
+    color: #575757 !important;
+
+    span {
+      color: #575757 !important;
+    }
+  }
+
+  p {
+    color: #575757 !important;
+  }
+}
