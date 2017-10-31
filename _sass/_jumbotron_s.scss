@@ -114,6 +114,13 @@
   background: rgba(0, 0, 0, 0.5) !important;
 }
 
+.outerHeaderWeb {
+  background: -webkit-linear-gradient(top left, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0.09) 100%) !important;
+  background: -o-linear-gradient(top left, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0.09) 100%) !important;
+  background: -moz-linear-gradient(top left, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0.09) 100%) !important;
+  background: linear-gradient(to bottom right, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0.09) 100%) !important;
+}
+
 .websiteDevelopment {
   background: #FFCB74; /* Old Browsers */
   background: -webkit-radial-gradient(top,#FFCB74,#FFC563); /*Safari 5.1-6*/
