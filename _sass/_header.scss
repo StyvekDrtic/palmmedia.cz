@@ -39,7 +39,7 @@ header {
     margin: 0;
     display: inline-block;
     vertical-align: middle;
-    padding-top: 4px;
+    padding-top: 2px;
     float: right;
     z-index: 5;
     -webkit-transition: opacity 0.3s ease;
@@ -125,5 +125,25 @@ header {
     position: absolute;
     top: 0;
     height: 92px;
+  }
+}
+
+.desktopMenu {
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
+}
+
+.mobileMenu {
+  display: none;
+
+  i {
+    font-size: 27px;
+    color: #DFDFDF;
+
+  }
+
+  @media screen and (max-width: 950px) {
+    display: block;
   }
 }

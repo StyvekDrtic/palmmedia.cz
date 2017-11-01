@@ -34,6 +34,8 @@
     margin: 0 auto;
     height: 115px;
     padding-top: calc((330px - 115px)/2);
+    position: relative;
+    z-index: 10;
 
     p {
       font-family: AveRoman;
@@ -43,6 +45,12 @@
       display: inline-block;
       width: calc(100% - 125px - 60px);
       float: right;
+
+      @media screen and (max-width: 850px) {
+        line-height: 27px;
+        font-size: 15px;
+        margin-top: 18px;
+      }
     }
 
     .signature {
@@ -69,6 +77,14 @@
         color: #D4D4D4;
         display: block;
       }
+    }
+
+    @media screen and (max-width: 680px) {
+      padding-top: calc((330px - 135px)/2);
+    }
+
+    @media screen and (max-width: 580px) {
+      padding-top: calc((330px - 155px)/2);
     }
   }
 }

@@ -18,10 +18,29 @@
       position: absolute;
       right: calc(50% + 50px);
       margin: 0;
+      width: calc(100% - 50px - 50% - 40px);
 
       span {
         color: $orange;
         font-family: AveHeavyOblique;
+      }
+
+      @media screen and (max-width: 1250px) {
+        font-size: 65px;
+      }
+
+      @media screen and (max-width: 1050px) {
+        font-size: 60px;
+      }
+
+      @media screen and (max-width: 950px) {
+        font-size: 55px;
+        right: calc(50% + 30px);
+        width: calc(100% - 30px - 50% - 40px);
+      }
+
+      @media screen and (max-width: 650px) {
+        font-size: 46px;
       }
     }
 
@@ -30,6 +49,7 @@
       position: absolute;
       left: calc(50% + 50px);
       margin-top: calc(35px - 10px);
+      width: calc(100% - 50px - 50% - 40px);
 
       p {
         font-size: 16px;
@@ -39,9 +59,41 @@
         max-width: 410px;
         margin-bottom: 25px;
       }
+
+      @media screen and (max-width: 1250px) {
+        margin-top: 7px;
+      }
+
+      @media screen and (max-width: 1050px) {
+        margin-top: 5px;
+      }
+
+      @media screen and (max-width: 950px) {
+        margin-top: 0px;
+        left: calc(50% + 30px);
+        width: calc(100% - 30px - 50% - 40px);
+      }
+    }
+
+    @media screen and (max-width: 1250px) {
+      padding-top: 90px;
+      margin-bottom: 110px;
+    }
+
+    @media screen and (max-width: 950px) {
+      padding-top: 70px;
+      margin-bottom: 80px;
+    }
+
+    @media screen and (max-width: 850px) {
+      padding-top: 75px;
+      margin-bottom: 115px;
     }
   }
 
+  @media screen and (max-width: 950px) {
+    margin-bottom: 90px;
+  }
 }
 
 .jumbotronPart2 {
@@ -74,6 +126,10 @@
         &:last-child {
           margin-right: 40px;
         }
+      }
+
+      @media screen and (max-width: 950px) {
+        width: 1654px;
       }
     }
   }
