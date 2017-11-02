@@ -74,6 +74,68 @@
       &:nth-child(4) {
         margin-left: 60px;
       }
+
+      @media screen and (max-width: 850px) {
+        display: block;
+        margin: 0 auto !important;
+        width: 480px;
+        margin-bottom: 60px !important;
+      }
+    }
+  }
+
+  .projectWindow {
+    .description {
+      h3 {
+        @media screen and (max-width: 1100px) {
+          bottom: 70px;
+          left: 23px;
+        }
+
+        @media screen and (max-width: 850px) {
+          position: absolute;
+          bottom: 80px;
+          left: 30px;
+          font-family: MaaBlack;
+          font-size: 9px;
+          text-transform: uppercase;
+          margin: 0;
+          z-index: 1;
+          text-align: left;
+        }
+      }
+
+      h4 {
+        @media screen and (max-width: 1100px) {
+          width: calc(100% - 60px);
+          font-size: 14px;
+          line-height: 20px;
+          bottom: 20px;
+          left: 23px;
+        }
+
+        @media screen and (max-width: 850px) {
+          position: absolute;
+          bottom: 30px;
+          left: 30px;
+          font-family: AveMedium !important;
+          font-size: 15px;
+          max-width: 330px;
+          margin: 0;
+          z-index: 1;
+          text-align: left;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1100px) {
+      width: 360px;
+      height: 240px;
+    }
+
+    @media screen and (max-width: 850px) {
+      width: 480px;
+      height: 320px;
     }
   }
 }

@@ -13,10 +13,18 @@ header {
 
     img {
       height: 32px;
+
+      @media screen and (max-width: 450px) {
+        height: 22px;
+      }
     }
 
     .logoW {
       display: none;
+    }
+
+    @media screen and (max-width: 450px) {
+      height: 22px;
     }
   }
 
@@ -85,6 +93,12 @@ header {
       }
     }
   }
+
+  @media screen and (max-width: 450px) {
+    margin-top: 25px;
+    width: calc(100% - 60px);
+    max-width: none;
+  }
 }
 
 .outerHeader {
@@ -141,9 +155,17 @@ header {
     font-size: 27px;
     color: #DFDFDF;
 
+    @media screen and (max-width: 450px) {
+      font-size: 27px;
+      margin-top: -2px;
+    }
   }
 
   @media screen and (max-width: 950px) {
     display: block;
+  }
+
+  @media screen and (max-width: 450px) {
+    padding: 0;
   }
 }

@@ -84,7 +84,7 @@ $(document).ready(function() {
           $(".completedProjects .heading p").addClass("animated fadeIn");
 
           $(".jumbotronPart1 h1").addClass("animated fadeInUp");
-          $(".jumbotronPart1 div").addClass("animated fadeIn");
+          $(".jumbotronPart1 .descriptionJumb").addClass("animated fadeIn");
 
           setTimeout(
             function() {

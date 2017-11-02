@@ -152,6 +152,12 @@ section {
 
       @media screen and (max-width: 950px) {
         bottom: 70px;
+        left: 23px;
+      }
+
+      @media screen and (max-width: 450px) {
+        left: 15px;
+        bottom: 48px;
       }
     }
 
@@ -171,6 +177,21 @@ section {
         font-size: 14px;
         line-height: 20px;
         bottom: 20px;
+        left: 23px;
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 12px;
+        line-height: 16px;
+        left: 15px;
+        bottom: 11px;
+        width: calc(100% - 30px);
+      }
+    }
+
+    .displayDesktop {
+      @media screen and (max-width: 450px) {
+        opacity: 0;
       }
     }
   }
@@ -201,6 +222,11 @@ section {
     width: 360px;
     height: 240px;
   }
+
+  @media screen and (max-width: 450px) {
+    width: 250px;
+    height: 170px;
+  }
 }
 
 .line {
@@ -209,4 +235,12 @@ section {
   width: 500px;
   margin: 0 auto;
   display: block;
+}
+
+.displayMobile {
+  display: none !important;
+
+  @media screen and (max-width: 450px) {
+    display: block !important;
+  }
 }

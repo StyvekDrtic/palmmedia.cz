@@ -8,6 +8,20 @@
     height: 204px;
     margin-bottom: 180px;
 
+    .mobileSplit {
+      display: none !important;
+      background: #DFDFDF;
+      height: 1px;
+      width: 45px;
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 450px) {
+        display: block !important;
+      }
+    }
+
     h1 {
       opacity: 0;
       text-align: right;
@@ -42,9 +56,17 @@
       @media screen and (max-width: 650px) {
         font-size: 46px;
       }
+
+      @media screen and (max-width: 450px) {
+        font-size: 36px;
+        position: static;
+        width: auto;
+        display: block;
+        text-align: left;
+      }
     }
 
-    div {
+    .descriptionJumb {
       opacity: 0;
       position: absolute;
       left: calc(50% + 50px);
@@ -58,6 +80,14 @@
         text-align: left;
         max-width: 410px;
         margin-bottom: 25px;
+
+        @media screen and (max-width: 450px) {
+          font-size: 13px;
+          line-height: 22px;
+          padding-bottom: 9px;
+          margin-top: 0;
+          margin-bottom: 25px;
+        }
       }
 
       @media screen and (max-width: 1250px) {
@@ -72,6 +102,12 @@
         margin-top: 0px;
         left: calc(50% + 30px);
         width: calc(100% - 30px - 50% - 40px);
+      }
+
+      @media screen and (max-width: 450px) {
+        position: static;
+        width: auto;
+        display: block;
       }
     }
 
@@ -89,10 +125,23 @@
       padding-top: 75px;
       margin-bottom: 115px;
     }
+
+    @media screen and (max-width: 450px) {
+      height: auto;
+      width: calc(100% - 60px);
+      margin: 0 auto;
+      padding-top: 40px;
+      padding-bottom: 9px;
+      margin-bottom: 60px;
+    }
   }
 
   @media screen and (max-width: 950px) {
     margin-bottom: 90px;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin-bottom: 50px;
   }
 }
 
@@ -121,15 +170,31 @@
 
         &:first-child {
           margin-left: 40px;
+
+          @media screen and (max-width: 450px) {
+            margin-left: 25px;
+          }
         }
 
         &:last-child {
           margin-right: 40px;
+
+          @media screen and (max-width: 450px) {
+            margin-right: 25px;
+          }
+        }
+
+        @media screen and (max-width: 450px) {
+          margin: 0 calc(25px / 2);
         }
       }
 
       @media screen and (max-width: 950px) {
         width: 1654px;
+      }
+
+      @media screen and (max-width: 450px) {
+        width: 1139px;
       }
     }
   }
@@ -141,5 +206,10 @@
     margin: 0;
     margin-top: 15px;
     text-align: center;
+
+    @media screen and (max-width: 450px) {
+      font-size: 12px;
+      margin: 0;
+    }
   }
 }
