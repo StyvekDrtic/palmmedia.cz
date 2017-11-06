@@ -12,6 +12,12 @@ footer {
       text-align: center;
       margin: 0;
       margin-bottom: 33px;
+
+      @media screen and (max-width: 450px) {
+        font-size: 20px;
+        line-height: 36px;
+        margin-bottom: 20px;
+      }
     }
 
     ul {
@@ -41,6 +47,10 @@ footer {
             font-size: 15px;
             color: #9B9B9B;
             text-decoration: none;
+
+            @media screen and (max-width: 450px) {
+              font-size: 14px;
+            }
           }
         }
 
@@ -67,6 +77,10 @@ footer {
         }
       }
     }
+
+    @media screen and (max-width: 450px) {
+      margin-bottom: 45px;
+    }
   }
 
   .actualFooter {
@@ -92,6 +106,16 @@ footer {
         margin-left: 4px;
         position: relative;
         top: 1px;
+
+        @media screen and (max-width: 450px) {
+          max-width: 14px;
+          max-height: 18px;
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 11px;
+        margin-bottom: 7px;
       }
     }
 
@@ -99,6 +123,19 @@ footer {
       font-family: Mon;
       font-size: 12px;
       color: #9B9B9B;
+
+      @media screen and (max-width: 450px) {
+        font-size: 9.5px;
+      }
     }
+
+    @media screen and (max-width: 450px) {
+      padding-top: 20px;
+      padding-bottom: 60px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    margin-top: 60px;
   }
 }
