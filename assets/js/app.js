@@ -65,8 +65,19 @@ $(".closeButton").click(function() {
   $(".regMenu").css("opacity", "1");
   $(".submenu").css("z-index", "4");
   $(".submenu").css("opacity", "0");
+
+  $(".mobileMenuSection").css("opacity", "0");
+  $(".mobileMenuSection").css("z-index", "-1000");
 });
 
+$(".mobileMenu").click(function() {
+  $(".mobileMenuSection").css("z-index", "1000");
+  $(".mobileMenuSection").css("opacity", "1");
+
+  $(".closeButton").removeClass("fadeInRight animated").addClass("fadeInRight" + ' animated closeButton').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass().addClass("closeButton");
+  });
+});
 
 // LOADING
 
