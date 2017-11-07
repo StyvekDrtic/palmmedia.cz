@@ -3,6 +3,7 @@
   width: calc(100% - 80px);
   margin: 0 auto;
   margin-bottom: 140px;
+  padding-top: 140px;
 
   h2 {
     font-family: Mon;
@@ -170,10 +171,18 @@
 
   @media screen and (max-width: 950px) {
     margin-bottom: 90px;
+    padding-top: 90px;
   }
 
   @media screen and (max-width: 450px) {
     width: calc(100% - 60px);
     margin-bottom: 60px;
+    padding-top: 50px;
+  }
+}
+
+.selfieTrends {
+  @media screen and (max-width: 365px) {
+    display: none !important;
   }
 }

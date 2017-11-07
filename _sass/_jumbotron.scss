@@ -1,5 +1,5 @@
 .jumbotron {
-  margin-bottom: 140px;
+  margin-bottom: 0;
 
   .jumbotronPart1 {
     position: relative;
@@ -137,12 +137,12 @@
   }
 
   @media screen and (max-width: 950px) {
-    margin-bottom: 90px;
+    margin-bottom: 0;
     padding-top: 90px;
   }
 
   @media screen and (max-width: 450px) {
-    margin-bottom: 50px;
+    margin-bottom: 0;
     padding-top: 50px;
   }
 }

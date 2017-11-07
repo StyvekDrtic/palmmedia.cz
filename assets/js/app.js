@@ -83,6 +83,15 @@ $(".mobileMenu").click(function() {
   });
 });
 
+$(".mobileMenuSection li a").click(function() {
+  $(".regMenu").css("opacity", "1");
+  $(".submenu").css("z-index", "4");
+  $(".submenu").css("opacity", "0");
+
+  $(".mobileMenuSection").css("opacity", "0");
+  $(".mobileMenuSection").css("z-index", "-1000");
+});
+
 // LOADING
 
 
