@@ -35,9 +35,11 @@
   ul {
     padding-left: 30px;
     width: calc(100% - 60px);
-    position: absolute;
-    bottom: 50px;
     margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
     li {
       list-style: none;
@@ -48,6 +50,36 @@
         color: #fff;
         font-size: 19px;
         font-family: AveMedium;
+      }
+
+      &:nth-child(1) {
+        -webkit-animation-delay: 0.5s; /* Safari 4.0 - 8.0 */
+        animation-delay: 0.5s;
+      }
+
+      &:nth-child(2) {
+        -webkit-animation-delay: 0.6s; /* Safari 4.0 - 8.0 */
+        animation-delay: 0.6s;
+      }
+
+      &:nth-child(3) {
+        -webkit-animation-delay: 0.7s; /* Safari 4.0 - 8.0 */
+        animation-delay: 0.7s;
+      }
+
+      &:nth-child(4) {
+        -webkit-animation-delay: 0.8s; /* Safari 4.0 - 8.0 */
+        animation-delay: 0.8s;
+      }
+
+      &:nth-child(5) {
+        -webkit-animation-delay: 0.9s; /* Safari 4.0 - 8.0 */
+        animation-delay: 0.9s;
+      }
+
+      &:nth-child(6) {
+        -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+        animation-delay: 1s;
       }
     }
   }

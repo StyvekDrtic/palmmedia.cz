@@ -77,6 +77,10 @@ $(".mobileMenu").click(function() {
   $(".closeButton").removeClass("fadeInRight animated").addClass("fadeInRight" + ' animated closeButton').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
       $(this).removeClass().addClass("closeButton");
   });
+
+  $(".mobileMenuSectionLi").removeClass("fadeInDown animated").addClass("animated" + ' fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass().addClass("mobileMenuSectionLi");
+  });
 });
 
 // LOADING
