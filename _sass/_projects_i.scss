@@ -25,6 +25,13 @@
       display: block;
       text-align: center;
     }
+
+    @media screen and (max-width: 525px) {
+      text-align: left;
+      width: 100%;
+      font-size: 23px;
+      line-height: 31px;
+    }
   }
 
   p {
@@ -45,12 +52,29 @@
       text-align: center;
       width: auto;
     }
+
+    @media screen and (max-width: 525px) {
+      text-align: left;
+      width: 100%;
+      font-size: 13px;
+      margin-top: 10px;
+    }
   }
 
   @media screen and (max-width: 850px) {
     width: calc(100% - 80px);
     margin: 80px auto;
     margin-top: 30px;
+  }
+
+  @media screen and (max-width: 525px) {
+    text-align: left;
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    margin-bottom: 45px;
+    margin-top: 40px;
   }
 }
 
@@ -102,6 +126,18 @@
         width: 480px;
         margin-bottom: 60px !important;
       }
+
+      @media screen and (max-width: 525px) {
+        width: calc(100% - 60px);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+        margin-bottom: 35px !important;
+
+        &:last-child {
+          margin-bottom: 0px !important;
+        }
+      }
     }
   }
 
@@ -123,6 +159,12 @@
           margin: 0;
           z-index: 1;
           text-align: left;
+        }
+
+        @media screen and (max-width: 525px) {
+          font-size: 9px;
+          bottom: 49px;
+          left: 15px;
         }
       }
 
@@ -146,6 +188,13 @@
           z-index: 1;
           text-align: left;
         }
+
+        @media screen and (max-width: 525px) {
+          font-size: 12px;
+          bottom: 12px;
+          left: 15px;
+          line-height: 16px;
+        }
       }
     }
 
@@ -158,6 +207,24 @@
       width: 480px;
       height: 320px;
     }
+
+    @media screen and (max-width: 525px) {
+      width: 100%;
+      height: 250px;
+    }
+
+    @media screen and (max-width: 420px) {
+      width: 100%;
+      height: 170px;
+    }
+  }
+
+  @media screen and (max-width: 525px) {
+    padding-top: 93px;
+  }
+
+  @media screen and (max-width: 450px) {
+    padding-top: 63px;
   }
 }
 
@@ -224,8 +291,44 @@
     .videosMobile {
       display: none;
 
-      div {
+      ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        width: 300px;
+        height: 209px;
 
+        li {
+          list-style: none;
+          position: absolute;
+
+          div {
+            width: 258px;
+            height: 167px;
+            -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+            -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+          }
+
+          &:nth-child(3) {
+            top: 41px;
+            left: 0;
+          }
+
+          &:nth-child(2) {
+            top: 20.83px;
+            left: 20.76px;
+          }
+
+          &:nth-child(1) {
+            top: 0px;
+            right: 0px;
+          }
+        }
+      }
+
+      @media screen and (max-width: 525px) {
+        display: block;
       }
     }
 
@@ -368,6 +471,10 @@
           margin-bottom: 60px;
         }
       }
+
+      @media screen and (max-width: 525px) {
+        display: none;
+      }
     }
   }
 
@@ -379,6 +486,73 @@
 
     .picturesMobile {
       display: none;
+      position: relative;
+
+      ul {
+        position: relative;
+
+        li {
+          list-style: none;
+
+          div {
+            width: 237px;
+            height: 291px;
+            -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+            -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+          }
+
+          .photo1 {
+            background: url("../img/content/instagram/ig_1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+          .photo2 {
+            background: url("../img/content/instagram/ig_2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+          .photo3 {
+            background: url("../img/content/instagram/ig_3.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        }
+      }
+
+      .button {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+      }
+
+      .socialLogo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+
+
+        img {
+          margin-bottom: 0;
+        }
+
+        span {
+          margin-bottom: 0;
+        }
+      }
+
+      @media screen and (max-width: 525px) {
+        display: block;
+      }
     }
 
     .pictures {
@@ -492,6 +666,10 @@
           display: block;
         }
       }
+
+      @media screen and (max-width: 525px) {
+        display: none;
+      }
     }
 
     .button {
@@ -555,5 +733,15 @@
 
   @media screen and (max-width: 1100px) {
     margin-top: 100px;
+  }
+
+  @media screen and (max-width: 850px) {
+    margin-top: 50px;
+  }
+}
+
+.socialLogoDesktop {
+  @media screen and (max-width: 525px) {
+    display: none !important;
   }
 }
