@@ -194,6 +194,7 @@
           bottom: 12px;
           left: 15px;
           line-height: 16px;
+          width: calc(100% - 30px);
         }
       }
     }
@@ -290,10 +291,12 @@
 
     .videosMobile {
       display: none;
+      position: relative;
+      height: calc(209px + 70px);
 
       ul {
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
         position: relative;
         width: 300px;
         height: 209px;
@@ -324,6 +327,33 @@
             top: 0px;
             right: 0px;
           }
+        }
+      }
+
+      .button {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+      }
+
+      .socialLogo {
+        position: absolute;
+        right: 0;
+        bottom: 11px;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+
+
+        img {
+          margin-bottom: 0;
+          margin-right: 0;
+          height: 15px;
+        }
+
+        span {
+          margin-bottom: 0;
         }
       }
 
@@ -476,6 +506,11 @@
         display: none;
       }
     }
+
+    @media screen and (max-width: 525px) {
+      width: calc(100% - 60px);
+      margin-bottom: 50px;
+    }
   }
 
   .instagram {
@@ -487,9 +522,14 @@
     .picturesMobile {
       display: none;
       position: relative;
+      height: calc(355px + 70px);
 
       ul {
         position: relative;
+        width: 300px;
+        height: 355px;
+        padding: 0;
+        margin: 0 auto;
 
         li {
           list-style: none;
@@ -503,10 +543,13 @@
           }
 
           .photo1 {
-            background: url("../img/content/instagram/ig_1.jpg");
+            background: url("../img/content/instagram/ig_3.jpg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            position: absolute;
+            top: 0;
+            right: 0;
           }
 
           .photo2 {
@@ -514,13 +557,19 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            position: absolute;
+            top: 31.6px;
+            right: 31.74px;
           }
 
           .photo3 {
-            background: url("../img/content/instagram/ig_3.jpg");
+            background: url("../img/content/instagram/ig_1.jpg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            position: absolute;
+            bottom: 0;
+            left: 0;
           }
         }
       }
@@ -535,7 +584,7 @@
       .socialLogo {
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: 9px;
         margin: 0;
         width: auto;
         display: inline-block;
@@ -543,10 +592,14 @@
 
         img {
           margin-bottom: 0;
+          height: 20px;
+          margin-right: 10px;
         }
 
         span {
           margin-bottom: 0;
+          font-size: 16px;
+          margin-top: 1px;
         }
       }
 
@@ -684,6 +737,10 @@
         height: 30px;
       }
     }
+
+    @media screen and (max-width: 525px) {
+      width: calc(100% - 60px);
+    }
   }
 
   .others {
@@ -701,12 +758,41 @@
       .socialLogo {
         span {
           margin-bottom: 40px;
+
+          @media screen and (max-width: 525px) {
+            font-size: 16px;
+            margin: 0;
+          }
         }
 
         img {
           height: 30px;
           margin-bottom: 40px;
+
+          @media screen and (max-width: 525px) {
+            height: 20px;
+            margin: 0;
+            margin-right: 10px;
+          }
         }
+
+        @media screen and (max-width: 525px) {
+          position: absolute;
+          right: 0;
+          top: 0;
+          display: inline-block;
+          width: auto;
+          padding-top: 9px;
+          padding-bottom: 9px;
+        }
+      }
+
+      @media screen and (max-width: 525px) {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        height: 40px;
+        margin-bottom: 30px;
       }
     }
 
@@ -719,6 +805,12 @@
       .socialLogo {
         span {
           margin-bottom: 40px;
+
+          @media screen and (max-width: 525px) {
+            font-size: 16px;
+            margin: 0;
+            margin-right: 10px;
+          }
         }
 
         img {
@@ -726,8 +818,43 @@
           margin-left: 16px;
           margin-right: 0;
           margin-bottom: 40px;
+
+          @media screen and (max-width: 525px) {
+            height: 20px;
+            margin: 0;
+          }
+        }
+
+        @media screen and (max-width: 525px) {
+          position: absolute;
+          right: 0;
+          top: 0;
+          display: inline-block;
+          width: auto;
+          padding-top: 9px;
+          padding-bottom: 9px;
         }
       }
+
+      @media screen and (max-width: 525px) {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        height: 40px;
+      }
+    }
+
+    .button {
+      @media screen and (max-width: 525px) {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+
+    @media screen and (max-width: 525px) {
+      width: calc(100% - 60px);
+      height: auto;
     }
   }
 
