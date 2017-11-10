@@ -126,6 +126,7 @@ header {
 .services {
   header {
     padding-top: 30px;
+    background: none;
 
     a {
       color: #fff;
@@ -146,6 +147,17 @@ header {
         background: #333333;
       }
     }
+
+    .mobileMenu {
+      i {
+        color: #f1f1f1;
+      }
+    }
+
+    @media screen and (max-width: 950px) {
+      border-bottom: none !important;
+      background: rgba(25, 25, 25, 0.6);
+    }
   }
 
   .outerHeader {
@@ -157,6 +169,10 @@ header {
     position: absolute;
     top: 0;
     height: 92px;
+
+    @media screen and (max-width: 950px) {
+      display: none !important;
+    }
   }
 }
 
