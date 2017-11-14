@@ -1,1000 +1,1002 @@
-.heading {
-  position: relative;
-  margin-bottom: 60px;
-
-  h1 {
-    font-family: AveBook;
-    font-size: 36px;
-    color: #4A4A4A;
-    text-align: right;
-    position: absolute;
-    right: calc(50% + 30px);
-    top: 0;
-    display: inline-block;
-    margin: 0;
-    line-height: 50px;
-
-    span {
-      font-family: AveHeavyOblique;
-      color: #FFBA48;
-    }
-
-    @media screen and (max-width: 850px) {
-      position: static;
-      text-align: left;
-      display: block;
-      text-align: center;
-    }
-
-    @media screen and (max-width: 525px) {
-      text-align: left;
-      width: 100%;
-      font-size: 23px;
-      line-height: 31px;
-    }
-  }
-
-  p {
-    font-family: AveBookOblique;
-    font-size: 16px;
-    color: #4A4A4A;
-    margin-left: calc(50% + 30px);
-    text-align: left;
-    width: calc(50% - 30px);
-    display: inline-block;
-    margin-top: 14px;
-    margin-bottom: 14px;
-
-    @media screen and (max-width: 850px) {
-      margin: 0;
-      display: block;
-      margin-top: 10px;
-      text-align: center;
-      width: auto;
-    }
-
-    @media screen and (max-width: 525px) {
-      text-align: left;
-      width: 100%;
-      font-size: 13px;
-      margin-top: 10px;
-    }
-  }
-
-  @media screen and (max-width: 850px) {
-    width: calc(100% - 80px);
-    margin: 80px auto;
-    margin-top: 30px;
-  }
-
-  @media screen and (max-width: 525px) {
-    text-align: left;
-    width: calc(100% - 60px);
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 400px;
-    margin-bottom: 45px;
-    margin-top: 40px;
-  }
-}
-
-.completedProjects {
-  padding-top: 130px;
-
+.projects {
   .heading {
+    position: relative;
+    margin-bottom: 60px;
+
     h1 {
-      opacity: 0;
-    }
-
-    p {
-      opacity: 0;
-    }
-  }
-
-  .projectWindow {
-    opacity: 0;
-  }
-
-  ul {
-    padding: 0;
-    text-align: center;
-    width: 100%;
-    max-width: 1500px;
-    margin: 0 auto;
-
-    li {
-      list-style: none;
+      font-family: AveBook;
+      font-size: 36px;
+      color: #4A4A4A;
+      text-align: right;
+      position: absolute;
+      right: calc(50% + 30px);
+      top: 0;
       display: inline-block;
       margin: 0;
+      line-height: 50px;
 
-      &:nth-child(1) {
-        margin-bottom: 60px;
-      }
-
-      &:nth-child(2) {
-        margin-left: 60px;
-        margin-bottom: 60px;
-      }
-
-      &:nth-child(4) {
-        margin-left: 60px;
+      span {
+        font-family: AveHeavyOblique;
+        color: #FFBA48;
       }
 
       @media screen and (max-width: 850px) {
+        position: static;
+        text-align: left;
         display: block;
-        margin: 0 auto !important;
-        width: 480px;
-        margin-bottom: 60px !important;
+        text-align: center;
       }
 
       @media screen and (max-width: 525px) {
-        width: calc(100% - 60px);
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 400px;
-        margin-bottom: 35px !important;
-
-        &:last-child {
-          margin-bottom: 0px !important;
-        }
-      }
-    }
-  }
-
-  .projectWindow {
-    .description {
-      h3 {
-        @media screen and (max-width: 1100px) {
-          bottom: 70px;
-          left: 23px;
-        }
-
-        @media screen and (max-width: 850px) {
-          position: absolute;
-          bottom: 80px;
-          left: 30px;
-          font-family: MaaBlack;
-          font-size: 9px;
-          text-transform: uppercase;
-          margin: 0;
-          z-index: 1;
-          text-align: left;
-        }
-
-        @media screen and (max-width: 525px) {
-          font-size: 9px;
-          bottom: 49px;
-          left: 15px;
-        }
-      }
-
-      h4 {
-        @media screen and (max-width: 1100px) {
-          width: calc(100% - 60px);
-          font-size: 14px;
-          line-height: 20px;
-          bottom: 20px;
-          left: 23px;
-        }
-
-        @media screen and (max-width: 850px) {
-          position: absolute;
-          bottom: 30px;
-          left: 30px;
-          font-family: AveMedium !important;
-          font-size: 15px;
-          max-width: 330px;
-          margin: 0;
-          z-index: 1;
-          text-align: left;
-        }
-
-        @media screen and (max-width: 525px) {
-          font-size: 12px;
-          bottom: 12px;
-          left: 15px;
-          line-height: 16px;
-          width: calc(100% - 30px);
-        }
+        text-align: left;
+        width: 100%;
+        font-size: 23px;
+        line-height: 31px;
       }
     }
 
-    @media screen and (max-width: 1100px) {
-      width: 360px;
-      height: 240px;
+    p {
+      font-family: AveBookOblique;
+      font-size: 16px;
+      color: #4A4A4A;
+      margin-left: calc(50% + 30px);
+      text-align: left;
+      width: calc(50% - 30px);
+      display: inline-block;
+      margin-top: 14px;
+      margin-bottom: 14px;
+
+      @media screen and (max-width: 850px) {
+        margin: 0;
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        width: auto;
+      }
+
+      @media screen and (max-width: 525px) {
+        text-align: left;
+        width: 100%;
+        font-size: 13px;
+        margin-top: 10px;
+      }
     }
 
     @media screen and (max-width: 850px) {
-      width: 480px;
-      height: 320px;
+      width: calc(100% - 80px);
+      margin: 80px auto;
+      margin-top: 30px;
     }
 
     @media screen and (max-width: 525px) {
-      width: 100%;
-      height: 250px;
-    }
-
-    @media screen and (max-width: 420px) {
-      width: 100%;
-      height: 200px;
-    }
-
-    @media screen and (max-width: 344px) {
-      background-size: 130%;
-
-      &:hover {
-        background-size: 160%;
-      }
+      text-align: left;
+      width: calc(100% - 60px);
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 400px;
+      margin-bottom: 45px;
+      margin-top: 40px;
     }
   }
 
-  .simekostav {
-    h3 {
-      @media screen and (max-width: 344px) {
-        bottom: 65px !important;
+  .completedProjects {
+    padding-top: 130px;
+
+    .heading {
+      h1 {
+        opacity: 0;
       }
-    }
-  }
 
-  @media screen and (max-width: 525px) {
-    padding-top: 93px;
-  }
-
-  @media screen and (max-width: 450px) {
-    padding-top: 63px;
-  }
-}
-
-.sideHustle {
-  margin-top: 120px;
-
-  .socialLogo {
-    img {
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 16px;
-      margin-bottom: 35px;
-    }
-
-    span {
-      display: inline-block;
-      vertical-align: middle;
-      font-family: MaaMedium;
-      font-size: 20px;
-      color: #575757;
-      margin-bottom: 35px;
-    }
-
-    @media screen and (max-width: 1000px) {
-      display: block;
-      margin: 0 auto;
-      width: 100%;
-      text-align: center !important;
-    }
-  }
-
-  .vimeo {
-    width: calc(100% - 80px);
-    max-width: 1020px;
-    margin: 0 auto;
-
-    .socialLogo {
-      img {
-        height: 20px;
+      p {
+        opacity: 0;
       }
     }
 
-    .romania {
-      background: url("../img/content/romania.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
+    .projectWindow {
+      opacity: 0;
     }
 
-    .zauchensee {
-      background: url("../img/content/zauchensee.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    .justAnotherDay {
-      background: url("../img/content/justAnotherDay.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    .videosMobile {
-      display: none;
-      position: relative;
-      height: calc(209px + 70px);
-
-      ul {
-        padding: 0;
-        margin: 0 auto;
-        position: relative;
-        width: 300px;
-        height: 209px;
-
-        li {
-          list-style: none;
-          position: absolute;
-
-          div {
-            width: 258px;
-            height: 167px;
-            -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
-            -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
-            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
-
-            @media screen and (max-width: 344px) {
-              width: 200px;
-              height: 135px;
-            }
-          }
-
-          &:nth-child(3) {
-            bottom: 0;
-            left: 0;
-          }
-
-          &:nth-child(2) {
-            top: calc(105px - (167px / 2));
-            left: calc(150px - (258px / 2));
-
-            @media screen and (max-width: 344px) {
-              top: calc(90px - (135px / 2));
-              left: calc(130px - (200px / 2));
-            }
-          }
-
-          &:nth-child(1) {
-            top: 0;
-            right: 0;
-          }
-        }
-
-        @media screen and (max-width: 344px) {
-          height: 180px;
-          width: 260px;
-        }
-      }
-
-      .button {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        margin: 0;
-      }
-
-      .socialLogo {
-        position: absolute;
-        right: 0;
-        bottom: 11px;
-        margin: 0;
-        width: auto;
-        display: inline-block;
-
-
-        img {
-          margin-bottom: 0;
-          margin-right: 0;
-          height: 15px;
-        }
-
-        span {
-          margin-bottom: 0;
-        }
-      }
-
-      @media screen and (max-width: 525px) {
-        display: block;
-      }
-
-      @media screen and (max-width: 344px) {
-        height: calc(189px + 70px);
-      }
-    }
-
-    .videos {
+    ul {
       padding: 0;
-      position: relative;
       text-align: center;
+      width: 100%;
+      max-width: 1500px;
       margin: 0 auto;
-      margin-bottom: 50px;
 
       li {
         list-style: none;
         display: inline-block;
+        margin: 0;
 
-        .vimeoVideo {
-          webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
-          -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
-          box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
-          width: 310px;
-          height: 200px;
-          position: relative;
-          text-align: left;
-          background-size: 110%;
-          transition: background-size 0.5s ease;
+        &:nth-child(1) {
+          margin-bottom: 60px;
+        }
 
-          .description {
-            z-index: 1;
+        &:nth-child(2) {
+          margin-left: 60px;
+          margin-bottom: 60px;
+        }
+
+        &:nth-child(4) {
+          margin-left: 60px;
+        }
+
+        @media screen and (max-width: 850px) {
+          display: block;
+          margin: 0 auto !important;
+          width: 480px;
+          margin-bottom: 60px !important;
+        }
+
+        @media screen and (max-width: 525px) {
+          width: calc(100% - 60px);
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 400px;
+          margin-bottom: 35px !important;
+
+          &:last-child {
+            margin-bottom: 0px !important;
+          }
+        }
+      }
+    }
+
+    .projectWindow {
+      .description {
+        h3 {
+          @media screen and (max-width: 1100px) {
+            bottom: 70px;
+            left: 23px;
+          }
+
+          @media screen and (max-width: 850px) {
             position: absolute;
-            bottom: 0;
-            left: 0;
-            color: #fff;
-            width: 310px;
-            padding-top: 10px;
+            bottom: 80px;
+            left: 30px;
+            font-family: MaaBlack;
+            font-size: 9px;
+            text-transform: uppercase;
+            margin: 0;
+            z-index: 1;
+            text-align: left;
+          }
 
-            span {
-              z-index: 1;
-              font-family: MaaBlack;
-              font-size: 9px;
-              margin-left: 25px;
-              margin-bottom: 5px;
-            }
+          @media screen and (max-width: 525px) {
+            font-size: 9px;
+            bottom: 49px;
+            left: 15px;
+          }
+        }
 
-            h4 {
-              z-index: 1;
-              font-family: AveMedium;
-              font-size: 15px;
-              margin-left: 25px;
-              margin-top: 0;
-              margin-bottom: 15px;
+        h4 {
+          @media screen and (max-width: 1100px) {
+            width: calc(100% - 60px);
+            font-size: 14px;
+            line-height: 20px;
+            bottom: 20px;
+            left: 23px;
+          }
 
-              @media screen and (max-width: 1000px) {
-                margin-bottom: 30px;
-                padding-top: 7px;
+          @media screen and (max-width: 850px) {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            font-family: AveMedium !important;
+            font-size: 15px;
+            max-width: 330px;
+            margin: 0;
+            z-index: 1;
+            text-align: left;
+          }
+
+          @media screen and (max-width: 525px) {
+            font-size: 12px;
+            bottom: 12px;
+            left: 15px;
+            line-height: 16px;
+            width: calc(100% - 30px);
+          }
+        }
+      }
+
+      @media screen and (max-width: 1100px) {
+        width: 360px;
+        height: 240px;
+      }
+
+      @media screen and (max-width: 850px) {
+        width: 480px;
+        height: 320px;
+      }
+
+      @media screen and (max-width: 525px) {
+        width: 100%;
+        height: 250px;
+      }
+
+      @media screen and (max-width: 420px) {
+        width: 100%;
+        height: 200px;
+      }
+
+      @media screen and (max-width: 344px) {
+        background-size: 130%;
+
+        &:hover {
+          background-size: 160%;
+        }
+      }
+    }
+
+    .simekostav {
+      h3 {
+        @media screen and (max-width: 344px) {
+          bottom: 65px !important;
+        }
+      }
+    }
+
+    @media screen and (max-width: 525px) {
+      padding-top: 93px;
+    }
+
+    @media screen and (max-width: 450px) {
+      padding-top: 63px;
+    }
+  }
+
+  .sideHustle {
+    margin-top: 120px;
+
+    .socialLogo {
+      img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 16px;
+        margin-bottom: 35px;
+      }
+
+      span {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: MaaMedium;
+        font-size: 20px;
+        color: #575757;
+        margin-bottom: 35px;
+      }
+
+      @media screen and (max-width: 1000px) {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center !important;
+      }
+    }
+
+    .vimeo {
+      width: calc(100% - 80px);
+      max-width: 1020px;
+      margin: 0 auto;
+
+      .socialLogo {
+        img {
+          height: 20px;
+        }
+      }
+
+      .romania {
+        background: url("../img/content/romania.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .zauchensee {
+        background: url("../img/content/zauchensee.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .justAnotherDay {
+        background: url("../img/content/justAnotherDay.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .videosMobile {
+        display: none;
+        position: relative;
+        height: calc(209px + 70px);
+
+        ul {
+          padding: 0;
+          margin: 0 auto;
+          position: relative;
+          width: 300px;
+          height: 209px;
+
+          li {
+            list-style: none;
+            position: absolute;
+
+            div {
+              width: 258px;
+              height: 167px;
+              -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+              -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+              box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+
+              @media screen and (max-width: 344px) {
+                width: 200px;
+                height: 135px;
               }
             }
 
-            @media screen and (max-width: 1100px) {
-              width: 100%;
+            &:nth-child(3) {
+              bottom: 0;
+              left: 0;
+            }
+
+            &:nth-child(2) {
+              top: calc(105px - (167px / 2));
+              left: calc(150px - (258px / 2));
+
+              @media screen and (max-width: 344px) {
+                top: calc(90px - (135px / 2));
+                left: calc(130px - (200px / 2));
+              }
+            }
+
+            &:nth-child(1) {
+              top: 0;
+              right: 0;
             }
           }
 
-          .layer {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 0;
-            background-image: -o-linear-gradient(top right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
-            background-image: -o-linear-gradient(top right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
-            background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
-            opacity: 0.5;
-            transition: opacity 0.5s ease;
+          @media screen and (max-width: 344px) {
+            height: 180px;
+            width: 260px;
+          }
+        }
+
+        .button {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          margin: 0;
+        }
+
+        .socialLogo {
+          position: absolute;
+          right: 0;
+          bottom: 11px;
+          margin: 0;
+          width: auto;
+          display: inline-block;
+
+
+          img {
+            margin-bottom: 0;
+            margin-right: 0;
+            height: 15px;
           }
 
-          i {
-            position: absolute;
-            text-align: center;
-            width: 300px;
-            left: 0;
-            top: 0;
-            font-size: 40px;
-            line-height: 200px;
-            color: white;
-            z-index: 1;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-
-            &:hover {
-              opacity: 1;
-            }
-
-            @media screen and (max-width: 1000px) {
-              width: 100%;
-              line-height: 320px;
-            }
+          span {
+            margin-bottom: 0;
           }
+        }
 
-          &:hover {
-            background-size: 130%;
+        @media screen and (max-width: 525px) {
+          display: block;
+        }
+
+        @media screen and (max-width: 344px) {
+          height: calc(189px + 70px);
+        }
+      }
+
+      .videos {
+        padding: 0;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+
+        li {
+          list-style: none;
+          display: inline-block;
+
+          .vimeoVideo {
+            webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+            -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+            box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+            width: 310px;
+            height: 200px;
+            position: relative;
+            text-align: left;
+            background-size: 110%;
+            transition: background-size 0.5s ease;
+
+            .description {
+              z-index: 1;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              color: #fff;
+              width: 310px;
+              padding-top: 10px;
+
+              span {
+                z-index: 1;
+                font-family: MaaBlack;
+                font-size: 9px;
+                margin-left: 25px;
+                margin-bottom: 5px;
+              }
+
+              h4 {
+                z-index: 1;
+                font-family: AveMedium;
+                font-size: 15px;
+                margin-left: 25px;
+                margin-top: 0;
+                margin-bottom: 15px;
+
+                @media screen and (max-width: 1000px) {
+                  margin-bottom: 30px;
+                  padding-top: 7px;
+                }
+              }
+
+              @media screen and (max-width: 1100px) {
+                width: 100%;
+              }
+            }
 
             .layer {
-              opacity: 1;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: 0;
+              background-image: -o-linear-gradient(top right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+              background-image: -o-linear-gradient(top right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+              background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+              opacity: 0.5;
+              transition: opacity 0.5s ease;
             }
 
             i {
-              opacity: 0.9;
+              position: absolute;
+              text-align: center;
+              width: 300px;
+              left: 0;
+              top: 0;
+              font-size: 40px;
+              line-height: 200px;
+              color: white;
+              z-index: 1;
+              opacity: 0;
+              transition: opacity 0.5s ease;
 
               &:hover {
                 opacity: 1;
               }
+
+              @media screen and (max-width: 1000px) {
+                width: 100%;
+                line-height: 320px;
+              }
+            }
+
+            &:hover {
+              background-size: 130%;
+
+              .layer {
+                opacity: 1;
+              }
+
+              i {
+                opacity: 0.9;
+
+                &:hover {
+                  opacity: 1;
+                }
+              }
+            }
+
+            @media screen and (max-width: 1100px) {
+              width: 290px;
+              height: 185px;
+            }
+
+            @media screen and (max-width: 1000px) {
+              width: 480px;
+              height: 320px;
             }
           }
 
-          @media screen and (max-width: 1100px) {
-            width: 290px;
-            height: 185px;
+          &:last-child {
+            position: absolute;
+            right: 0;
+
+            @media screen and (max-width: 1000px) {
+              position: static;
+            }
+          }
+
+          &:first-child {
+            position: absolute;
+            left: 0;
+
+            @media screen and (max-width: 1000px) {
+              position: static;
+            }
           }
 
           @media screen and (max-width: 1000px) {
+            display: block;
             width: 480px;
             height: 320px;
+            margin: 0 auto;
+            margin-bottom: 60px;
           }
         }
 
-        &:last-child {
-          position: absolute;
-          right: 0;
-
-          @media screen and (max-width: 1000px) {
-            position: static;
-          }
-        }
-
-        &:first-child {
-          position: absolute;
-          left: 0;
-
-          @media screen and (max-width: 1000px) {
-            position: static;
-          }
-        }
-
-        @media screen and (max-width: 1000px) {
-          display: block;
-          width: 480px;
-          height: 320px;
-          margin: 0 auto;
-          margin-bottom: 60px;
+        @media screen and (max-width: 525px) {
+          display: none;
+          max-width: none;
         }
       }
 
       @media screen and (max-width: 525px) {
-        display: none;
-        max-width: none;
+        width: calc(100% - 60px);
+        margin-bottom: 50px;
       }
     }
 
-    @media screen and (max-width: 525px) {
-      width: calc(100% - 60px);
+    .instagram {
+      width: calc(100% - 80px);
+      max-width: 1020px;
+      margin: 0 auto;
       margin-bottom: 50px;
-    }
-  }
 
-  .instagram {
-    width: calc(100% - 80px);
-    max-width: 1020px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-
-    .picturesMobile {
-      display: none;
-      position: relative;
-      height: calc(355px + 70px);
-
-      ul {
+      .picturesMobile {
+        display: none;
         position: relative;
-        width: 300px;
-        height: 355px;
-        padding: 0;
-        margin: 0 auto;
+        height: calc(355px + 70px);
 
-        li {
-          list-style: none;
+        ul {
+          position: relative;
+          width: 300px;
+          height: 355px;
+          padding: 0;
+          margin: 0 auto;
 
-          div {
-            width: 237px;
-            height: 291px;
-            -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
-            -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
-            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+          li {
+            list-style: none;
 
-            @media screen and (max-width: 344px) {
-              width: 200px;
-              height: 245px;
+            div {
+              width: 237px;
+              height: 291px;
+              -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+              -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+              box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
+
+              @media screen and (max-width: 344px) {
+                width: 200px;
+                height: 245px;
+              }
+            }
+
+            .photo1 {
+              background: url("../img/content/instagram/ig_3.jpg");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: absolute;
+              top: 0;
+              right: 0;
+            }
+
+            .photo2 {
+              background: url("../img/content/instagram/ig_2.jpg");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: absolute;
+              top: calc((355px / 2) - (291px / 2));
+              right: calc((300px / 2) - (237px / 2));
+
+              @media screen and (max-width: 344px) {
+                top: calc((308px / 2) - (245px / 2));
+                right: calc((260px / 2) - (200px / 2));
+              }
+            }
+
+            .photo3 {
+              background: url("../img/content/instagram/ig_1.jpg");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: absolute;
+              bottom: 0;
+              left: 0;
             }
           }
 
-          .photo1 {
-            background: url("../img/content/instagram/ig_3.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: absolute;
-            top: 0;
-            right: 0;
-          }
-
-          .photo2 {
-            background: url("../img/content/instagram/ig_2.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: absolute;
-            top: calc((355px / 2) - (291px / 2));
-            right: calc((300px / 2) - (237px / 2));
-
-            @media screen and (max-width: 344px) {
-              top: calc((308px / 2) - (245px / 2));
-              right: calc((260px / 2) - (200px / 2));
-            }
-          }
-
-          .photo3 {
-            background: url("../img/content/instagram/ig_1.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: absolute;
-            bottom: 0;
-            left: 0;
+          @media screen and (max-width: 344px) {
+            height: 308px;
+            width: 260px;
           }
         }
 
+        .button {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          margin: 0;
+        }
+
+        .socialLogo {
+          position: absolute;
+          right: 0;
+          bottom: 9px;
+          margin: 0;
+          width: auto;
+          display: inline-block;
+
+
+          img {
+            margin-bottom: 0;
+            height: 20px;
+            margin-right: 10px;
+          }
+
+          span {
+            margin-bottom: 0;
+            font-size: 16px;
+            margin-top: 1px;
+          }
+        }
+
+        @media screen and (max-width: 525px) {
+          display: block;
+        }
+
         @media screen and (max-width: 344px) {
-          height: 308px;
-          width: 260px;
+          height: calc(320px + 70px);
+        }
+      }
+
+      .pictures {
+        padding: 0;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+
+        .photo1 {
+          background: url("../img/content/instagram/ig_1.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .photo2 {
+          background: url("../img/content/instagram/ig_2.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .photo3 {
+          background: url("../img/content/instagram/ig_3.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .photo4 {
+          background: url("../img/content/instagram/ig_4.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .photo5 {
+          background: url("../img/content/instagram/ig_5.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .photo6 {
+          background: url("../img/content/instagram/ig_6.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        li {
+          list-style: none;
+          display: inline-block;
+          margin-bottom: 40px;
+
+          a {
+            div {
+              width: 310px;
+              height: 380px;
+              webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+              -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+              box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
+
+              @media screen and (max-width: 1100px) {
+                width: 290px;
+                height: 355px;
+              }
+
+              @media screen and (max-width: 765px) {
+                margin: 0 auto;
+                width: 480px;
+                height: 588px;
+              }
+            }
+          }
+
+          &:nth-child(1) {
+            @media screen and (max-width: 1100px) {
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+
+            @media screen and (max-width: 1000px) {
+              position: static;
+            }
+          }
+
+          &:nth-child(2) {
+            margin: 40px 40px;
+            margin-top: 0;
+
+            @media screen and (max-width: 1100px) {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 290px;
+            }
+
+            @media screen and (max-width: 1000px) {
+              margin: 0;
+              margin-right: 0 !important;
+              width: auto;
+              display: inline-block;
+            }
+          }
+
+          &:nth-child(3) {
+            @media screen and (max-width: 1100px) {
+              position: absolute;
+              top: 0;
+              right: 0;
+            }
+
+            @media screen and (max-width: 1000px) {
+              position: static;
+            }
+          }
+
+          &:nth-child(4) {
+            @media screen and (max-width: 1100px) {
+              position: absolute;
+              bottom: -40px;
+              left: 0;
+            }
+
+            @media screen and (max-width: 1000px) {
+              margin-right: 0 !important;
+              position: static;
+            }
+          }
+
+          &:nth-child(5) {
+            margin: 40px 40px;
+            margin-top: 0;
+
+            @media screen and (max-width: 1100px) {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 290px;
+            }
+
+            @media screen and (max-width: 1000px) {
+              margin: 0;
+              margin-right: 60px !important;
+              width: auto;
+              display: inline-block;
+            }
+          }
+
+          &:nth-child(6) {
+            @media screen and (max-width: 1100px) {
+              position: absolute;
+              bottom: -40px;
+              right: 0;
+            }
+
+            @media screen and (max-width: 1000px) {
+              margin-right: 0 !important;
+              position: static;
+            }
+          }
+
+          @media screen and (max-width: 1000px) {
+            margin-right: 60px !important;
+            margin-bottom: 60px !important;
+          }
+
+          @media screen and (max-width: 765px) {
+            margin: 0 auto !important;
+            margin-bottom: 60px !important;
+            display: block;
+          }
+        }
+
+        @media screen and (max-width: 525px) {
+          display: none;
         }
       }
 
       .button {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        margin: 0;
-      }
-
-      .socialLogo {
-        position: absolute;
-        right: 0;
-        bottom: 9px;
-        margin: 0;
-        width: auto;
-        display: inline-block;
-
-
-        img {
-          margin-bottom: 0;
-          height: 20px;
-          margin-right: 10px;
-        }
-
-        span {
-          margin-bottom: 0;
-          font-size: 16px;
-          margin-top: 1px;
-        }
-      }
-
-      @media screen and (max-width: 525px) {
+        margin: 0 auto;
+        width: 49px;
         display: block;
       }
 
-      @media screen and (max-width: 344px) {
-        height: calc(320px + 70px);
+      .socialLogo {
+      text-align: left;
+        img {
+          height: 30px;
+        }
+      }
+
+      @media screen and (max-width: 525px) {
+        width: calc(100% - 60px);
       }
     }
 
-    .pictures {
-      padding: 0;
+    .others {
+      width: calc(100% - 80px);
+      max-width: 1020px;
+      margin: 0 auto;
       position: relative;
-      text-align: center;
-      margin: 0 auto;
+      height: 100px;
 
-      .photo1 {
-        background: url("../img/content/instagram/ig_1.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      .photo2 {
-        background: url("../img/content/instagram/ig_2.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      .photo3 {
-        background: url("../img/content/instagram/ig_3.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      .photo4 {
-        background: url("../img/content/instagram/ig_4.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      .photo5 {
-        background: url("../img/content/instagram/ig_5.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      .photo6 {
-        background: url("../img/content/instagram/ig_6.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      li {
-        list-style: none;
-        display: inline-block;
-        margin-bottom: 40px;
-
-        a {
-          div {
-            width: 310px;
-            height: 380px;
-            webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
-            -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
-            box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
-
-            @media screen and (max-width: 1100px) {
-              width: 290px;
-              height: 355px;
-            }
-
-            @media screen and (max-width: 765px) {
-              margin: 0 auto;
-              width: 480px;
-              height: 588px;
-            }
-          }
-        }
-
-        &:nth-child(1) {
-          @media screen and (max-width: 1100px) {
-            position: absolute;
-            top: 0;
-            left: 0;
-          }
-
-          @media screen and (max-width: 1000px) {
-            position: static;
-          }
-        }
-
-        &:nth-child(2) {
-          margin: 40px 40px;
-          margin-top: 0;
-
-          @media screen and (max-width: 1100px) {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 290px;
-          }
-
-          @media screen and (max-width: 1000px) {
-            margin: 0;
-            margin-right: 0 !important;
-            width: auto;
-            display: inline-block;
-          }
-        }
-
-        &:nth-child(3) {
-          @media screen and (max-width: 1100px) {
-            position: absolute;
-            top: 0;
-            right: 0;
-          }
-
-          @media screen and (max-width: 1000px) {
-            position: static;
-          }
-        }
-
-        &:nth-child(4) {
-          @media screen and (max-width: 1100px) {
-            position: absolute;
-            bottom: -40px;
-            left: 0;
-          }
-
-          @media screen and (max-width: 1000px) {
-            margin-right: 0 !important;
-            position: static;
-          }
-        }
-
-        &:nth-child(5) {
-          margin: 40px 40px;
-          margin-top: 0;
-
-          @media screen and (max-width: 1100px) {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 290px;
-          }
-
-          @media screen and (max-width: 1000px) {
-            margin: 0;
-            margin-right: 60px !important;
-            width: auto;
-            display: inline-block;
-          }
-        }
-
-        &:nth-child(6) {
-          @media screen and (max-width: 1100px) {
-            position: absolute;
-            bottom: -40px;
-            right: 0;
-          }
-
-          @media screen and (max-width: 1000px) {
-            margin-right: 0 !important;
-            position: static;
-          }
-        }
-
-        @media screen and (max-width: 1000px) {
-          margin-right: 60px !important;
-          margin-bottom: 60px !important;
-        }
-
-        @media screen and (max-width: 765px) {
-          margin: 0 auto !important;
-          margin-bottom: 60px !important;
-          display: block;
-        }
-      }
-
-      @media screen and (max-width: 525px) {
-        display: none;
-      }
-    }
-
-    .button {
-      margin: 0 auto;
-      width: 49px;
-      display: block;
-    }
-
-    .socialLogo {
-    text-align: left;
-      img {
-        height: 30px;
-      }
-    }
-
-    @media screen and (max-width: 525px) {
-      width: calc(100% - 60px);
-    }
-  }
-
-  .others {
-    width: calc(100% - 80px);
-    max-width: 1020px;
-    margin: 0 auto;
-    position: relative;
-    height: 100px;
-
-    .github {
-      position: absolute;
-      top: 0;
-      left: 0;
-
-      .socialLogo {
-        span {
-          margin-bottom: 40px;
-
-          @media screen and (max-width: 525px) {
-            font-size: 16px;
-            margin: 0;
-          }
-        }
-
-        img {
-          height: 30px;
-          margin-bottom: 40px;
-
-          @media screen and (max-width: 525px) {
-            height: 20px;
-            margin: 0;
-            margin-right: 10px;
-          }
-        }
-
-        @media screen and (max-width: 525px) {
-          position: absolute;
-          right: 0;
-          top: 0;
-          display: inline-block;
-          width: auto;
-          padding-top: 9px;
-          padding-bottom: 9px;
-        }
-      }
-
-      @media screen and (max-width: 525px) {
-        width: 100%;
-        margin: 0 auto;
-        position: relative;
-        height: 40px;
-        margin-bottom: 30px;
-      }
-    }
-
-    .medium {
-      position: absolute;
-      top: 0;
-      right: 0;
-      text-align: right;
-
-      .socialLogo {
-        span {
-          margin-bottom: 40px;
-
-          @media screen and (max-width: 525px) {
-            font-size: 16px;
-            margin: 0;
-            margin-right: 10px;
-          }
-        }
-
-        img {
-          height: 30px;
-          margin-left: 16px;
-          margin-right: 0;
-          margin-bottom: 40px;
-
-          @media screen and (max-width: 525px) {
-            height: 20px;
-            margin: 0;
-          }
-        }
-
-        @media screen and (max-width: 525px) {
-          position: absolute;
-          right: 0;
-          top: 0;
-          display: inline-block;
-          width: auto;
-          padding-top: 9px;
-          padding-bottom: 9px;
-        }
-      }
-
-      @media screen and (max-width: 525px) {
-        width: 100%;
-        margin: 0 auto;
-        position: relative;
-        height: 40px;
-      }
-    }
-
-    .button {
-      @media screen and (max-width: 525px) {
+      .github {
         position: absolute;
-        left: 0;
         top: 0;
+        left: 0;
+
+        .socialLogo {
+          span {
+            margin-bottom: 40px;
+
+            @media screen and (max-width: 525px) {
+              font-size: 16px;
+              margin: 0;
+            }
+          }
+
+          img {
+            height: 30px;
+            margin-bottom: 40px;
+
+            @media screen and (max-width: 525px) {
+              height: 20px;
+              margin: 0;
+              margin-right: 10px;
+            }
+          }
+
+          @media screen and (max-width: 525px) {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: inline-block;
+            width: auto;
+            padding-top: 9px;
+            padding-bottom: 9px;
+          }
+        }
+
+        @media screen and (max-width: 525px) {
+          width: 100%;
+          margin: 0 auto;
+          position: relative;
+          height: 40px;
+          margin-bottom: 30px;
+        }
+      }
+
+      .medium {
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: right;
+
+        .socialLogo {
+          span {
+            margin-bottom: 40px;
+
+            @media screen and (max-width: 525px) {
+              font-size: 16px;
+              margin: 0;
+              margin-right: 10px;
+            }
+          }
+
+          img {
+            height: 30px;
+            margin-left: 16px;
+            margin-right: 0;
+            margin-bottom: 40px;
+
+            @media screen and (max-width: 525px) {
+              height: 20px;
+              margin: 0;
+            }
+          }
+
+          @media screen and (max-width: 525px) {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: inline-block;
+            width: auto;
+            padding-top: 9px;
+            padding-bottom: 9px;
+          }
+        }
+
+        @media screen and (max-width: 525px) {
+          width: 100%;
+          margin: 0 auto;
+          position: relative;
+          height: 40px;
+        }
+      }
+
+      .button {
+        @media screen and (max-width: 525px) {
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+
+      @media screen and (max-width: 525px) {
+        width: calc(100% - 60px);
+        height: auto;
       }
     }
 
-    @media screen and (max-width: 525px) {
-      width: calc(100% - 60px);
-      height: auto;
+    @media screen and (max-width: 1100px) {
+      margin-top: 100px;
+    }
+
+    @media screen and (max-width: 850px) {
+      margin-top: 50px;
     }
   }
 
-  @media screen and (max-width: 1100px) {
-    margin-top: 100px;
-  }
-
-  @media screen and (max-width: 850px) {
-    margin-top: 50px;
-  }
-}
-
-.socialLogoDesktop {
-  @media screen and (max-width: 525px) {
-    display: none !important;
+  .socialLogoDesktop {
+    @media screen and (max-width: 525px) {
+      display: none !important;
+    }
   }
 }

@@ -11,6 +11,10 @@
   @media screen and (max-width: 950px) {
     height: calc(530px - 0px);
   }
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .jumbotronS {
@@ -37,6 +41,10 @@
     right: 0;
     z-index: 0;
     opacity: 0.4;
+
+    @media screen and (max-width: 1050px) {
+      width: 280px;
+    }
   }
 
   .ornament2 {
@@ -51,6 +59,10 @@
     left: 0;
     z-index: 0;
     opacity: 0.4;
+
+    @media screen and (max-width: 1050px) {
+      width: 310px;
+    }
   }
 
   .ornament3 {
@@ -65,6 +77,15 @@
     left: 30%;
     z-index: 0;
     opacity: 0.4;
+
+    @media screen and (max-width: 1050px) {
+      height: 88px;
+      left: 21%;
+    }
+
+    @media screen and (max-width: 870px) {
+      display: none;
+    }
   }
 
   .jumbotronSInner {
@@ -74,6 +95,20 @@
     height: 110px;
     margin-bottom: 180px;
     text-align: center;
+
+    .mobileSplit {
+      display: none !important;
+      background: #DFDFDF;
+      height: 1px;
+      width: 45px;
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 600px) {
+        display: block !important;
+      }
+    }
 
     h1 {
       font-family: AveBook;
@@ -95,6 +130,15 @@
       @media screen and (max-width: 1100px) {
         margin-right: 60px;
       }
+
+      @media screen and (max-width: 600px) {
+        width: calc(100%);
+        margin: 0 auto;
+        text-align: left;
+        display: block;
+        max-width: 480px;
+        height: auto;
+      }
     }
 
     .jumbotronSInnerTextInner {
@@ -114,8 +158,36 @@
         @media screen and (max-width: 1100px) {
           width: calc(50vw - 30px - 50px);
         }
+
+        @media screen and (max-width: 600px) {
+          width: calc(100%);
+          margin: 0 auto;
+          text-align: left;
+          display: block;
+          max-width: none;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        width: auto;
+        display: block;
       }
     }
+
+    @media screen and (max-width: 600px) {
+      margin: 0 auto;
+      height: auto;
+      padding-top: 200px;
+      padding-bottom: 150px;
+      margin-bottom: 0;
+      width: calc(100% - 60px);
+      max-width: 480px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    height: auto;
+    position: relative;
   }
 }
 
