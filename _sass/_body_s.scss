@@ -369,7 +369,7 @@
         left: 0;
 
         @media screen and (max-width: 950px) {
-          position: static;
+          position: relative;
         }
       }
 
@@ -379,7 +379,7 @@
         right: 0;
 
         @media screen and (max-width: 950px) {
-          position: static;
+          position: relative;
         }
       }
 
