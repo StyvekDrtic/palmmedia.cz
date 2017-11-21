@@ -95,6 +95,9 @@ $(".mobileMenuSection li a").click(function() {
 // LOADING
 
 
+if ($(window).width() < 1024 && $(window).width() > 450) {
+  $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
+}
 
 $(document).ready(function() {
 
@@ -130,8 +133,12 @@ $(document).ready(function() {
 
                           setTimeout(
                             function() {
-                              $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
-                              $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
+
+                              if ($(window).width() >= 1024) {
+                                $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
+                                $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
+                              }
+
                             }, 1200);
                         }, 150);
                     }, 150);
