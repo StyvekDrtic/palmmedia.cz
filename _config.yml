@@ -11,7 +11,7 @@ description:
 keywords:
 author: palmmedia.co
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://palmmedia.co/" # the base hostname & protocol for your site
+url: "http://palmmedia.cz/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
