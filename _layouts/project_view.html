@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="services projectView {{ page.project_tag }}">
+  {% include art.html %}
+  {% include head.html %}
+
+  <body>
+    {% include mobileMenu.html %}
+    {% include header.html %}
+
+    <div class="outerHeader outerHeaderPhoto"></div>
+    <section class="jumbotronProject">
+      <div class="innerJumbotronProject">
+        <div class="headingProject wow fadeInUp" data-wow-delay="0.5s">
+          <h1>{{ page.project_name }}</h1>
+          <div class="urlProject">
+            <i class="fa fa-link"></i>
+            <a href="{{ page.project_url }}">{{ page.project_url }}</a>
+          </div>
+        </div>
+        <div class="mobileSplit wow fadeInLeft" data-wow-delay="1.5s"></div>
+        <div class="descriptionProject wow fadeIn" data-wow-delay="0.5s">
+          <p>{{ page.project_description }}</p>
+        </div>
+      </div>
+    </section>
+
+    {{ content }}
+    {% include footer.html %}
+  </body>
+</html>
