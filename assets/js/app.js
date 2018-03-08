@@ -57,14 +57,26 @@ new WOW().init();
 
 $(".whatWeDo").click(function() {
   $(".regMenu").css("opacity", "0");
-  $(".submenu").css("z-index", "6");
-  $(".submenu").css("opacity", "1");
+  $(".whatWeDoMenu").css("z-index", "8");
+  $(".whatWeDoMenu").css("opacity", "1");
+  //console.log("hfgdfghfgjfkjjhkgfjhffgey");
 });
 
-$(".closeButton").click(function() {
+$(".specializedServices").click(function() {
+  $(".regMenu").css("opacity", "0");
+  $(".servicesMenu").css("z-index", "8");
+  $(".servicesMenu").css("opacity", "1");
+  //console.log("hedasdasdy");
+});
+
+$(".closeButton").click(function(event) {
+  event.preventDefault();
+
   $(".regMenu").css("opacity", "1");
   $(".submenu").css("z-index", "4");
   $(".submenu").css("opacity", "0");
+
+  //console.log("hey");
 
   $(".mobileMenuSection").css("opacity", "0");
   $(".mobileMenuSection").css("z-index", "-1000");

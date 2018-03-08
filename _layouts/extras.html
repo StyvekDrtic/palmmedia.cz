@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="services projectView extras {{ page.extras_tag }}">
+  {% include art.html %}
+  {% include head.html %}
+
+  <body>
+    {% include mobileMenu.html %}
+    {% include header.html %}
+
+    <div class="outerHeader outerHeaderPhoto"></div>
+    <section class="jumbotronProject">
+      <div class="innerJumbotronProject">
+        <div class="headingProject wow fadeInUp" data-wow-delay="0.5s">
+          <h1>{{ page.extras_name }}</h1>
+          <h4>SPECIÁLNÍ SLUŽBA</h4>
+        </div>
+        <div class="mobileSplit wow fadeInLeft" data-wow-delay="1.5s"></div>
+        <div class="descriptionProject wow fadeIn" data-wow-delay="0.5s">
+          <p>{{ page.extras_description }}</p>
+        </div>
+      </div>
+    </section>
+
+    {{ content }}
+    {% include footer.html %}
+  </body>
+</html>

@@ -195,6 +195,12 @@ header {
   }
 }
 
+.servicesMenu {
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
+}
+
 .mobileMenu {
   display: none;
 

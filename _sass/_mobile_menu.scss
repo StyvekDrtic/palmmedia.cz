@@ -10,6 +10,7 @@
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+  overflow-y: scroll;
 
   .closeButton {
     font-family: AveHeavyOblique;
@@ -47,10 +48,17 @@
     padding-left: 30px;
     width: calc(100% - 60px);
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+    .submenuMobile {
+      margin-left: 30px;
+
+      a {
+        font-family: AveBook !important;
+        font-size: 16px !important;
+      }
+    }
 
     li {
       list-style: none;
@@ -60,7 +68,7 @@
         text-decoration: none;
         color: #fff;
         font-size: 19px;
-        font-family: AveMedium;
+        font-family: AveHeavy;
       }
 
       &:nth-child(1) {

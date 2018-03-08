@@ -1,0 +1,75 @@
+.extras {
+  .jumbotronProject {
+    .headingProject {
+      h1 {
+        font-family: AveLight !important;
+        margin-bottom: 8px !important;
+
+        @media screen and (max-width: 600px) {
+          font-size: 32px !important;
+          margin-bottom: 5px !important;
+        }
+      }
+
+      h4 {
+        font-family: AveBlack;
+        font-size: 13px;
+        color: rgba(255,255,255,0.50);
+        letter-spacing: 1.87px;
+        margin: 0;
+        padding-top: 8px;
+
+        @media screen and (max-width: 600px) {
+          font-size: 10px;
+          letter-spacing: 1.4px;
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}
+
+.reborn {
+  .jumbotronProject {
+    background: url("../img/content/extras/reborn.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .innerJumbotronProject {
+      @media screen and (max-width: 950px) {
+        padding-top: 210px !important;
+      }
+
+      @media screen and (max-width: 770px) {
+        padding-top: 150px !important;
+      }
+
+      @media screen and (max-width: 600px) {
+        padding-top: 120px !important;
+      }
+    }
+
+    .headingProject {
+      h1 {
+        @media screen and (max-width: 1050px) {
+          margin-bottom: 15px !important;
+        }
+
+        @media screen and (max-width: 600px) {
+          margin-bottom: 5px !important;
+        }
+      }
+    }
+  }
+}
+
+
+.voice {
+  .jumbotronProject {
+    background: url("../img/content/extras/voice.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
