@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: palmmedia - let us make you shine
-description:
-keywords:
+title: palmmedia - let's make you shine
+description: Specializujeme se na tvorbu marketingových kampaní na sociálních sítích, video & foto produkci, vývoj webových stránek a branding vašeho projektu.
+keywords: marketing, tvorba webových stránek, video produkce, fotograf, vytvořit web, reklama, reklama na facebooku, reklama na instagramu, mediální agentura, digitální agentura
 author: palmmedia.co
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://palmmedia.cz/" # the base hostname & protocol for your site
