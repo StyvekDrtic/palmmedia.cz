@@ -103,3 +103,29 @@
     }
   }
 }
+
+.languageSwitch {
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #4a4a4a;
+
+  img {
+    margin: 0 !important;
+    height: 15px !important;
+    vertical-align: middle;
+  }
+
+  span {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 7px;
+    color: #b3b3b3;
+  }
+}
+
+.languageSwitchWrap {
+  margin-bottom: 30px !important;
+}
