@@ -135,28 +135,34 @@ $(document).ready(function() {
                 function() {
                   $(".completedProjects .protiProudu").addClass("animated fadeInUp");
 
+
                   setTimeout(
                     function() {
-                      $(".completedProjects .lanistae").addClass("animated fadeInUp");
+                      $(".completedProjects .davidKolar").addClass("animated fadeInUp");
 
-                      setTimeout(
-                        function() {
-                          $(".completedProjects .beunique").addClass("animated fadeInUp");
+                    setTimeout(
+                      function() {
+                        $(".completedProjects .lanistae").addClass("animated fadeInUp");
 
-                          setTimeout(
-                            function() {
-                              $(".completedProjects .jezdeckaStaj").addClass("animated fadeInUp");
+                        setTimeout(
+                          function() {
+                            $(".completedProjects .beunique").addClass("animated fadeInUp");
 
-                              setTimeout(
-                                function() {
+                            setTimeout(
+                              function() {
+                                $(".completedProjects .jezdeckaStaj").addClass("animated fadeInUp");
 
-                                  if ($(window).width() >= 1024) {
-                                    $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
-                                    $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
-                                  }
+                                setTimeout(
+                                  function() {
 
-                                }, 1200);
-                            }, 150);
+                                    if ($(window).width() >= 1024) {
+                                      $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
+                                      $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
+                                    }
+
+                                  }, 1200);
+                              }, 150);
+                          }, 150);
                         }, 150);
                     }, 150);
                 }, 150);
