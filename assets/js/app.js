@@ -129,7 +129,12 @@ $(document).ready(function() {
             function() {
               $(".slider").addClass("animated fadeInUp");
 
-              $(".completedProjects .simekostav").addClass("animated fadeInUp");
+              $(".completedProjects .ontherebound").addClass("animated fadeInUp");
+
+
+              setTimeout(
+                function() {
+                  $(".completedProjects .simekostav").addClass("animated fadeInUp");
 
               setTimeout(
                 function() {
@@ -165,6 +170,7 @@ $(document).ready(function() {
                           }, 150);
                         }, 150);
                     }, 150);
+                }, 150);
                 }, 150);
             }, 300);
         }, 500);
