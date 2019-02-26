@@ -600,3 +600,47 @@
     }
   }
 }
+
+
+.vybocujiciPodcastText {
+  font-family: AveRoman;
+  font-size: 14px;
+  color: #575757;
+  line-height: 24px;
+  text-align: center;
+  width: calc(100% - 200px);
+  margin: 0 auto;
+  padding-top: 100px;
+  max-width: 1000px;
+
+  @media screen and (max-width: 800px) {
+    max-width: 480px;
+    padding-top: 50px;
+    width: calc(100% - 100px);
+  }
+
+  @media screen and (max-width: 450px) {
+    text-align: left;
+    max-width: none;
+    width: calc(100% - 60px);
+    font-size: 13px;
+    line-height: 23px;
+    padding-top: 0;
+    margin-top: -15px;
+    padding-bottom: 40px;
+  }
+}
+
+.podcastHtml {
+  .mobileSplit {
+    background: rgba(0, 0, 0, 0.28) !important;
+  }
+
+  @media screen and (max-width: 950px) {
+    header {
+      border-bottom: none !important;
+      background: rgba(5, 5, 5, 0.6);
+      padding-top: 22px;
+    }
+  }
+}
