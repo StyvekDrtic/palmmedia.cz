@@ -299,21 +299,21 @@
       }
 
       .romania {
-        background: url("../img/content/romania.jpg");
+        background: url("../img/content/ep4.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
       }
 
       .zauchensee {
-        background: url("../img/content/zauchensee.jpg");
+        background: url("../img/content/ep2.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
       }
 
       .justAnotherDay {
-        background: url("../img/content/justAnotherDay.jpg");
+        background: url("../img/content/ep3.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -430,7 +430,7 @@
             height: 200px;
             position: relative;
             text-align: left;
-            background-size: 110%;
+            background-size: 120%;
             transition: background-size 0.5s ease;
 
             .description {
@@ -507,7 +507,7 @@
             }
 
             &:hover {
-              background-size: 130%;
+              background-size: 145%;
 
               .layer {
                 opacity: 1;
@@ -586,7 +586,7 @@
         ul {
           position: relative;
           width: 300px;
-          height: 355px;
+          height: 300px;
           padding: 0;
           margin: 0 auto;
 
@@ -595,14 +595,14 @@
 
             div {
               width: 237px;
-              height: 291px;
+              height: 237px;
               -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
               -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
               box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.13);
 
               @media screen and (max-width: 344px) {
                 width: 200px;
-                height: 245px;
+                height: 200px;
               }
             }
 
@@ -622,11 +622,11 @@
               background-repeat: no-repeat;
               background-size: cover;
               position: absolute;
-              top: calc((355px / 2) - (291px / 2));
+              top: calc((300px / 2) - (237px / 2));
               right: calc((300px / 2) - (237px / 2));
 
               @media screen and (max-width: 344px) {
-                top: calc((308px / 2) - (245px / 2));
+                top: calc((260px / 2) - (200px / 2));
                 right: calc((260px / 2) - (200px / 2));
               }
             }
@@ -643,7 +643,7 @@
           }
 
           @media screen and (max-width: 344px) {
-            height: 308px;
+            height: 260px;
             width: 260px;
           }
         }
@@ -682,7 +682,7 @@
         }
 
         @media screen and (max-width: 344px) {
-          height: calc(320px + 70px);
+          height: calc(280px + 70px);
         }
       }
 
@@ -742,20 +742,20 @@
           a {
             div {
               width: 310px;
-              height: 380px;
+              height: 310px;
               webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
               -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
               box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.13);
 
               @media screen and (max-width: 1100px) {
                 width: 290px;
-                height: 355px;
+                height: 290px;
               }
 
               @media screen and (max-width: 765px) {
                 margin: 0 auto;
                 width: 480px;
-                height: 588px;
+                height: 480px;
               }
             }
           }
@@ -944,11 +944,12 @@
 
         .socialLogo {
           span {
-            margin-bottom: 40px;
+            margin-bottom: 32px;
 
             @media screen and (max-width: 525px) {
               font-size: 16px;
               margin: 0;
+              margin-bottom: -6px;
               margin-right: 10px;
             }
           }

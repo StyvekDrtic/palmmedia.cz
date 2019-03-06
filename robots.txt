@@ -1,2 +1,3 @@
+Sitemap: https://palmmedia.cz/sitemap.xml
 User-Agent: *
 Disallow:
