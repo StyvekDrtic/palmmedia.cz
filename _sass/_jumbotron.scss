@@ -1,6 +1,146 @@
 .jumbotron {
   margin-bottom: 0;
 
+
+
+  .jumbotronPart1_middleman {
+    position: relative;
+    padding-top: 130px;
+    width: 100%;
+    height: 204px;
+    margin-bottom: 120px;
+
+    .mobileSplit {
+      display: none !important;
+      background: #DFDFDF;
+      height: 1px;
+      width: 45px;
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 450px) {
+        display: block !important;
+      }
+    }
+
+    h1 {
+      opacity: 0;
+      text-align: right;
+      font-family: AveBook;
+      font-size: 75px;
+      color: #4A4A4A;
+      display: inline-block;
+      position: absolute;
+      right: calc(50% + 50px);
+      margin: 0;
+      width: calc(100% - 50px - 50% - 40px);
+
+      span {
+        color: $orange;
+        font-family: AveHeavyOblique;
+      }
+
+      @media screen and (max-width: 1250px) {
+        font-size: 65px;
+      }
+
+      @media screen and (max-width: 1050px) {
+        font-size: 60px;
+      }
+
+      @media screen and (max-width: 950px) {
+        font-size: 55px;
+        right: calc(50% + 30px);
+        width: calc(100% - 30px - 50% - 40px);
+      }
+
+      @media screen and (max-width: 650px) {
+        font-size: 46px;
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 36px;
+        position: static;
+        width: auto;
+        display: block;
+        text-align: left;
+      }
+    }
+
+    .descriptionJumb {
+      opacity: 0;
+      position: absolute;
+      left: calc(50% + 50px);
+      margin-top: calc(35px - 10px);
+      width: calc(100% - 50px - 50% - 40px);
+
+      p {
+        font-size: 16px;
+        color: #4A4A4A;
+        line-height: 24px;
+        text-align: left;
+        max-width: 410px;
+        margin-bottom: 25px;
+
+        @media screen and (max-width: 450px) {
+          font-size: 14px;
+          line-height: 24px;
+          padding-bottom: 9px;
+          margin-top: 0;
+          margin-bottom: 25px;
+        }
+      }
+
+      @media screen and (max-width: 1250px) {
+        margin-top: 7px;
+      }
+
+      @media screen and (max-width: 1050px) {
+        margin-top: 5px;
+      }
+
+      @media screen and (max-width: 950px) {
+        margin-top: 0px;
+        left: calc(50% + 30px);
+        width: calc(100% - 30px - 50% - 40px);
+      }
+
+      @media screen and (max-width: 450px) {
+        position: static;
+        width: auto;
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: 1250px) {
+      padding-top: 90px;
+      margin-bottom: 110px;
+    }
+
+    @media screen and (max-width: 950px) {
+      padding-top: 70px;
+      margin-bottom: 80px;
+    }
+
+    @media screen and (max-width: 850px) {
+      padding-top: 70px;
+      margin-bottom: 110px;
+    }
+
+    @media screen and (max-width: 450px) {
+      height: auto;
+      width: calc(100% - 60px);
+      margin: 0 auto;
+      padding-top: 40px;
+      padding-bottom: 9px;
+      margin-bottom: 60px;
+    }
+  }
+
+
+
+
   .jumbotronPart1 {
     position: relative;
     padding-top: 130px;

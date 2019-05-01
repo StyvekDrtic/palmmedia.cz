@@ -8,68 +8,83 @@
 
 
 <url>
-  <loc>https://palmmedia.cz/</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/projects</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/projects</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/marketing</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/marketing</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/podcasting</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/podcasting</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/content-production</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/content-production</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/website-development</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/middleman</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/ontherebound</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/pricing</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/protiproudu</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/website-development</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/beunique</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/ontherebound</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/david-kolar</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/queenspodcast</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/simekostav</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/protiproudu</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/skvrnov</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/david-kolar</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://palmmedia.cz/lanistae</loc>
-  <lastmod>2019-03-06T15:11:12+00:00</lastmod>
+  <loc>https://palmmedia.co/simekostav</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://palmmedia.co/beunique</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://palmmedia.co/lanistae</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://palmmedia.co/skvrnov</loc>
+  <lastmod>2019-04-27T15:15:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

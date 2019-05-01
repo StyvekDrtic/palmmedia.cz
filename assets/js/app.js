@@ -116,6 +116,10 @@ $(document).ready(function() {
   setTimeout(
     function() {
       $("header .palm").addClass("animated tada");
+      $(".jumbotronPart1_middleman h1").addClass("animated fadeInUp");
+      $(".jumbotronPart1_middleman .descriptionJumb").addClass("animated fadeIn");
+
+      $(".cenikSocialMedia").addClass("animated fadeInUp");
 
       setTimeout(
         function() {
@@ -125,12 +129,16 @@ $(document).ready(function() {
           $(".jumbotronPart1 h1").addClass("animated fadeInUp");
           $(".jumbotronPart1 .descriptionJumb").addClass("animated fadeIn");
 
+          $(".cenikPodcasty").addClass("animated fadeInUp");
+          $(".prezentace").addClass("animated fadeInDown");
+
           setTimeout(
             function() {
               $(".slider").addClass("animated fadeInUp");
 
               $(".completedProjects .ontherebound").addClass("animated fadeInUp");
 
+              $(".cenikOstatni").addClass("animated fadeInUp");
 
               setTimeout(
                 function() {
@@ -138,16 +146,16 @@ $(document).ready(function() {
 
               setTimeout(
                 function() {
-                  $(".completedProjects .protiProudu").addClass("animated fadeInUp");
+                  $(".completedProjects .queensPodcast").addClass("animated fadeInUp");
 
 
                   setTimeout(
                     function() {
-                      $(".completedProjects .davidKolar").addClass("animated fadeInUp");
+                      $(".completedProjects .protiProudu").addClass("animated fadeInUp");
 
                     setTimeout(
                       function() {
-                        $(".completedProjects .lanistae").addClass("animated fadeInUp");
+                        $(".completedProjects .davidKolar").addClass("animated fadeInUp");
 
                         setTimeout(
                           function() {
@@ -155,17 +163,22 @@ $(document).ready(function() {
 
                             setTimeout(
                               function() {
-                                $(".completedProjects .jezdeckaStaj").addClass("animated fadeInUp");
+                                $(".completedProjects .lanistae").addClass("animated fadeInUp");
 
                                 setTimeout(
                                   function() {
+                                    $(".completedProjects .jezdeckaStaj").addClass("animated fadeInUp");
 
-                                    if ($(window).width() >= 1024) {
-                                      $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
-                                      $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
-                                    }
+                                    setTimeout(
+                                      function() {
 
-                                  }, 1200);
+                                        if ($(window).width() >= 1024) {
+                                          $(".slider").animate({ scrollLeft: $(".slider ul").width() - $(".slider").width()}, 2000, "swing");
+                                          $(".slider").animate({ scrollLeft: ($(".slider ul").width() - $(".slider").width())/2}, 1500, "swing");
+                                        }
+
+                                      }, 1200);
+                                }, 150);
                               }, 150);
                           }, 150);
                         }, 150);
